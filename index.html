@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="An atlas of the Pontic Greeks from 756 BC to the exchange of 1923: the six metropolises, every Orthodox village found so far, the other peoples of the land and the history in twelve chapters. Work in progress by Iosif Lazaridis, supervising research by Anthropic's Claude.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://iosiflazaridis.github.io/pontic-greek-history/">
+<meta property="og:title" content="2,700 Years of Pontic Greek History">
+<meta property="og:description" content="An atlas of the Pontic Greeks from 756 BC to the exchange of 1923: the six metropolises, every Orthodox village found so far, the other peoples of the land and the history in twelve chapters. Work in progress by Iosif Lazaridis, supervising research by Anthropic's Claude.">
+<meta property="og:image" content="https://iosiflazaridis.github.io/pontic-greek-history/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Six maps of Pontus from the Greek colonies to the exchange of 1923, with a timeline from 756 BC to 1923">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@iosif_lazaridis">
+<link rel="canonical" href="https://iosiflazaridis.github.io/pontic-greek-history/">
+<title>Pontic Greek History Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}
+/* Layout: a field atlas. Sticky title band with section tabs; each section is a sheet on the paper ground;
+   the two map sections share one zoomable relief canvas with a detail column beside it. */
+:root{
+  --page:#eceee9; --paper:#f7f7f3; --sea:#d3dfe3; --ink:#1b2230; --ink2:#3a4250; --muted:#5c6470; --rule:#d0d4cc;
+  --accent:#2a4f6e; --accent-soft:#dfe7ec; --warn:#a4532a; --warn-soft:#f3e4da; --tk:#6b4f8a; --tk-soft:#ece6f2;
+  --blue:#2a78d6; --orange:#eb6834; --orange2:#f3b48f; --green:#1baf7a; --violet:#4a3aa7; --magenta:#b23a78; --brown:#876114; --grey:#8a9097; --gold:#c9940f; --mon:#7a3b14;
+  --f-display:'Marcellus','Gentium Book Plus',Georgia,serif;
+  --f-body:'Gentium Book Plus',Georgia,'Times New Roman',serif;
+  --f-ui:'IBM Plex Sans Condensed','Arial Narrow',system-ui,sans-serif;
+  --s-1:13px; --s0:16.5px; --s1:19px; --s2:24px; --s3:32px; --s4:clamp(30px,5vw,50px);
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --page:#121720; --paper:#1a2029; --sea:#24333c; --ink:#e7e9e4; --ink2:#c9cdc6; --muted:#9aa1a9; --rule:#2f3742;
+  --accent:#8fb6d3; --accent-soft:#22313d; --warn:#e3a07c; --warn-soft:#3a2a22; --tk:#c3a9e0; --tk-soft:#2c2538;
+  --blue:#5b9be6; --orange:#f08458; --orange2:#9a5a3c; --green:#3cc592; --violet:#8f84d9; --magenta:#d86aa0; --brown:#c09a4a; --grey:#8a9097; --gold:#e3b23c; --mon:#e8a06a; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --page:#121720; --paper:#1a2029; --sea:#24333c; --ink:#e7e9e4; --ink2:#c9cdc6; --muted:#9aa1a9; --rule:#2f3742;
+  --accent:#8fb6d3; --accent-soft:#22313d; --warn:#e3a07c; --warn-soft:#3a2a22; --tk:#c3a9e0; --tk-soft:#2c2538;
+  --blue:#5b9be6; --orange:#f08458; --orange2:#9a5a3c; --green:#3cc592; --violet:#8f84d9; --magenta:#d86aa0; --brown:#c09a4a; --grey:#8a9097; --gold:#e3b23c; --mon:#e8a06a; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--page);color:var(--ink);font-family:var(--f-body);font-size:var(--s0);line-height:1.5;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+a{color:var(--accent)} a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1320px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--paper);border-bottom:1px solid var(--rule)}
+header.top .wrap{display:flex;align-items:center;gap:18px;padding-block:10px;flex-wrap:wrap}
+.brand{font-family:var(--f-display);font-size:21px;line-height:1.1;white-space:nowrap}
+.brand small{display:block;font-family:var(--f-ui);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+nav.tabs{display:flex;gap:2px;overflow-x:auto;flex:1;min-width:0;scrollbar-width:thin}
+nav.tabs button{font-family:var(--f-ui);font-size:15px;border:0;background:none;color:var(--ink2);padding:8px 11px;border-radius:4px;cursor:pointer;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{background:var(--accent-soft);color:var(--ink);font-weight:600}
+nav.tabs button:hover{color:var(--ink)}
+main{padding-block:26px 60px}
+section[hidden]{display:none!important}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0}
+h1{font-size:var(--s4);line-height:1.08}
+h2{font-size:var(--s3);line-height:1.15}
+h3{font-size:var(--s2);line-height:1.2}
+.eyebrow{font-family:var(--f-ui);font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.lede{font-size:var(--s1);color:var(--ink2);max-width:62ch}
+.sheet{background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:22px clamp(16px,3vw,30px)}
+.stack{display:flex;flex-direction:column;gap:18px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:20px}
+.grid2>*{min-width:0}
+.ui{font-family:var(--f-ui)}
+.muted{color:var(--muted)}
+.chip{display:inline-block;font-family:var(--f-ui);font-size:12.5px;padding:1px 8px;border-radius:10px;border:1px solid var(--rule);color:var(--ink2);white-space:nowrap}
+.chip.high{border-color:var(--green);color:var(--green)} .chip.medium{border-color:var(--gold);color:var(--gold)} .chip.low{border-color:var(--warn);color:var(--warn)}
+.chip.tk{border-color:var(--tk);color:var(--tk)}
+.notice{border-left:3px solid var(--warn);background:var(--warn-soft);padding:10px 14px;border-radius:2px}
+.figs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.figs div{background:var(--paper);padding:14px 16px}
+.figs b{display:block;font-family:var(--f-display);font-size:30px;font-weight:400;font-variant-numeric:tabular-nums;line-height:1.1}
+.figs span{font-family:var(--f-ui);font-size:13.5px;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-family:var(--f-ui);font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);font-weight:500}
+td.n,th.n{text-align:right}
+.tablewrap{overflow-x:auto;max-width:100%}
+.chlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr));gap:12px}
+.chcard{display:flex;gap:12px;align-items:flex-start;text-align:left;background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:12px 14px;cursor:pointer;color:var(--ink);font:inherit}
+.chcard:hover{border-color:var(--accent)}
+.chcard .num{font-family:var(--f-display);font-size:28px;line-height:1;color:var(--accent);min-width:34px}
+.chcard .t{font-size:17px;line-height:1.3}
+.chcard .m{font-family:var(--f-ui);font-size:13px;color:var(--muted);margin-top:4px}
+/* chapter view */
+.chview{display:grid;grid-template-columns:270px minmax(0,1fr);gap:24px;align-items:start}
+.chnav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 78px);display:flex;flex-direction:column;gap:2px;max-height:calc(100vh - 100px);overflow:auto}
+.chnav button{display:flex;gap:10px;text-align:left;border:0;background:none;padding:7px 10px;border-radius:3px;cursor:pointer;color:var(--ink2);font:inherit;font-size:15px;line-height:1.3}
+.chnav button b{font-family:var(--f-display);font-weight:400;color:var(--accent);min-width:22px}
+.chnav button[aria-current="true"]{background:var(--accent-soft);color:var(--ink)}
+.chsel{display:none}
+.subtabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--rule);margin:14px 0 18px}
+.subtabs button{font-family:var(--f-ui);font-size:15px;border:0;border-bottom:2px solid transparent;background:none;padding:8px 6px;cursor:pointer;color:var(--ink2)}
+.subtabs button[aria-selected="true"]{border-bottom-color:var(--accent);color:var(--ink);font-weight:600}
+.subtabs button.tkb[aria-selected="true"]{border-bottom-color:var(--tk)}
+.prose{max-width:72ch;overflow-wrap:break-word}
+.prose pre{white-space:pre-wrap;overflow-wrap:anywhere}
+.prose h1{font-size:28px;margin:1.2em 0 .4em} .prose h2{font-size:24px;margin:1.3em 0 .4em} .prose h3{font-size:20px;margin:1.1em 0 .3em}
+.prose table{font-size:15px;margin:10px 0} .prose code{font-family:var(--f-ui);font-size:.9em;background:var(--accent-soft);padding:0 4px;border-radius:2px}
+.prose blockquote{border-left:3px solid var(--rule);margin:0;padding-left:14px;color:var(--ink2)}
+.prose hr{border:0;border-top:1px solid var(--rule);margin:22px 0}
+.prose .tablewrap{margin:10px 0}
+#chbody{container-type:inline-size}
+.prose figure.nmap{margin:14px 0 24px;width:100%;max-width:none}
+@supports (width:1cqw){.prose figure.nmap{width:min(100cqw,1000px)}}
+.prose figure.nmap a{display:block}
+.prose figure.nmap img{display:block;width:100%;height:auto;border:1px solid var(--rule);background:var(--paper)}
+.prose figure.nmap figcaption{font-family:var(--f-ui);font-size:13.5px;line-height:1.4;color:var(--muted);margin-top:6px;max-width:72ch}
+.events{display:flex;flex-direction:column;gap:10px}
+.ev{display:grid;grid-template-columns:112px minmax(0,1fr);gap:14px;padding:12px 0;border-bottom:1px solid var(--rule)}
+.ev .d{font-family:var(--f-ui);font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ev .d .id{display:block;font-size:12px;margin-top:4px}
+.ev h4{font-family:var(--f-body);font-weight:700;font-size:17.5px;margin:0 0 4px;line-height:1.3}
+.ev p{margin:4px 0}
+.ev .meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.ev details{margin-top:6px;font-size:15px}
+.ev details summary{cursor:pointer;font-family:var(--f-ui);font-size:13.5px;color:var(--accent)}
+.ev ul{margin:4px 0;padding-left:20px}
+.ev .open{margin-top:6px;font-size:14.5px;border-left:3px solid var(--warn);background:var(--warn-soft);padding:6px 10px}
+.ev .disp{margin-top:6px;font-size:14.5px;color:var(--ink2)}
+.ev.tkev{border-left:3px solid var(--tk);padding-left:12px}
+.tkhead{background:var(--tk-soft);border-left:3px solid var(--tk);padding:12px 16px;border-radius:2px;margin-bottom:12px}
+.filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font-family:var(--f-ui);font-size:14.5px}
+.filters label{display:flex;gap:6px;align-items:center;color:var(--ink2)}
+input[type=search],select{font-family:var(--f-ui);font-size:15px;padding:6px 9px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:3px;max-width:100%}
+input[type=search]{min-width:min(100%,230px)}
+/* map explorer */
+.explorer{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:18px;align-items:start}
+.mapbox{position:relative;border:1px solid var(--rule);background:var(--sea);border-radius:2px;overflow:hidden;aspect-ratio:2/1;max-width:100%;touch-action:none}
+.mapbox canvas{position:absolute;inset:0;width:100%;height:100%;cursor:grab}
+.mapbox canvas:active{cursor:grabbing}
+.mapctl{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:4px}
+.mapctl button{width:32px;height:32px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);font-family:var(--f-ui);font-size:18px;border-radius:3px;cursor:pointer}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-family:var(--f-ui);font-size:13.5px;margin-top:8px}
+.legend span{display:flex;align-items:center;gap:6px}
+.legend i{width:11px;height:11px;border-radius:50%;display:inline-block;border:1px solid var(--paper)}
+.legend i.hollow{background:transparent!important;border:2px solid}
+.legend button{font:inherit;border:1px solid var(--rule);background:var(--paper);color:var(--ink2);border-radius:12px;padding:2px 10px;cursor:pointer;display:flex;gap:6px;align-items:center}
+.legend button[aria-pressed="false"]{opacity:.45}
+.detail{background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:16px 18px;max-height:78vh;overflow:auto;font-size:15.5px}
+.detail h3{font-size:24px}
+.detail dl{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 12px;margin:10px 0}
+.detail dt{font-family:var(--f-ui);font-size:13px;color:var(--muted);padding-top:2px}
+.detail dd{margin:0}
+.detail ul{padding-left:18px;margin:4px 0}
+.detail .gaps{border-left:3px solid var(--warn);background:var(--warn-soft);padding:8px 12px;margin-top:10px}
+.detail .tkbox{border-left:3px solid var(--tk);background:var(--tk-soft);padding:8px 12px;margin-top:10px}
+.results{margin-top:14px;max-height:340px;overflow:auto;border-top:1px solid var(--rule)}
+.results button{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:left;border:0;border-bottom:1px solid var(--rule);background:none;padding:6px 4px;cursor:pointer;color:var(--ink);font:inherit;font-size:15px}
+.results button:hover{background:var(--accent-soft)}
+.results small{font-family:var(--f-ui);color:var(--muted);font-size:12.5px;white-space:nowrap}
+/* timeline */
+.tl{display:flex;flex-direction:column}
+.tl .era{font-family:var(--f-display);font-size:22px;margin:22px 0 6px;color:var(--accent)}
+.tl .row{display:grid;grid-template-columns:96px 36px minmax(0,1fr);gap:10px;padding:5px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.tl .y{font-family:var(--f-ui);font-variant-numeric:tabular-nums;color:var(--muted);font-size:14px}
+.tl .c{font-family:var(--f-display);color:var(--accent)}
+.tl button.t{border:0;background:none;padding:0;text-align:left;font:inherit;color:var(--ink);cursor:pointer}
+.tl button.t:hover{text-decoration:underline}
+.tl .flag{font-family:var(--f-ui);font-size:12px;color:var(--warn);margin-left:6px}
+.density{width:100%;height:70px;display:block}
+.mapsgrid{display:grid;gap:26px}
+.mapsgrid figure{margin:0}
+.mapsgrid img{width:100%;height:auto;border:1px solid var(--rule);display:block;background:var(--paper)}
+.mapsgrid figcaption{font-size:15.5px;color:var(--ink2);margin-top:8px;max-width:80ch}
+.dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:12px}
+.dl .item{border:1px solid var(--rule);border-radius:3px;padding:14px 16px;background:var(--paper);display:flex;flex-direction:column;gap:6px}
+.btn{font-family:var(--f-ui);font-size:14.5px;border:1px solid var(--accent);background:var(--accent);color:var(--paper);padding:6px 12px;border-radius:3px;cursor:pointer;align-self:flex-start}
+.btn[disabled]{opacity:.5;cursor:default}
+.status{font-family:var(--f-ui);font-size:13.5px;color:var(--muted)}
+.policy ol{padding-left:22px;margin:6px 0} .policy li{margin:6px 0}
+.loading{font-family:var(--f-ui);color:var(--muted);padding:20px 0}
+.acwrap{position:relative;display:inline-block;max-width:100%}
+.ac{position:absolute;left:0;top:calc(100% + 3px);z-index:30;width:max(100%,340px);max-width:calc(100vw - 32px);max-height:340px;overflow:auto;background:var(--paper);border:1px solid var(--rule);border-radius:3px;box-shadow:0 6px 18px rgba(0,0,0,.14)}
+.ac button{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:left;border:0;border-bottom:1px solid var(--rule);background:none;padding:7px 10px;cursor:pointer;color:var(--ink);font-family:var(--f-body);font-size:15.5px}
+.ac button:last-child{border-bottom:0}
+.ac button[aria-selected="true"],.ac button:hover{background:var(--accent-soft)}
+.ac small{font-family:var(--f-ui);font-size:12.5px;color:var(--muted);white-space:nowrap;align-self:center}
+.ac .more{font-family:var(--f-ui);font-size:12.5px;color:var(--muted);padding:6px 10px}
+.wip{border:1px solid var(--rule);border-left:3px solid var(--accent);background:var(--accent-soft);padding:12px 16px;border-radius:2px;font-size:16px;max-width:90ch}
+footer.site{border-top:1px solid var(--rule);background:var(--paper);font-family:var(--f-ui);font-size:13.5px;color:var(--muted)}
+footer.site .wrap{padding-block:14px}
+
+@media (max-width:980px){
+  .explorer{grid-template-columns:minmax(0,1fr)}
+  .detail{max-height:none}
+  .chview{grid-template-columns:minmax(0,1fr)}
+  .chnav{display:none} .chsel{display:block;margin-bottom:8px}
+}
+/* photographs from Wikimedia Commons: 1-3 per page, a figure strip with caption and credit; click to enlarge */
+.prose a.evref{font-family:var(--f-ui);font-size:.8em;color:var(--muted);text-decoration:none;border-bottom:1px dotted currentColor}
+.photos{display:grid;grid-template-columns:repeat(var(--n,3),minmax(0,1fr));gap:14px}
+.photos:empty{display:none}
+.photos.n1{grid-template-columns:minmax(0,1fr);max-width:700px}
+.photos.n1.wide{max-width:none} .photos.wide img{aspect-ratio:auto}
+.photos figure{margin:0;background:var(--paper);border:1px solid var(--rule);border-radius:3px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.photos .ph{display:block;width:100%;padding:0;border:0;background:var(--sea);cursor:zoom-in}
+.photos img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.photos img.contain{object-fit:contain;background:var(--paper)}
+.photos figcaption{padding:9px 12px 11px;font-size:14.5px;line-height:1.38;color:var(--ink2)}
+.photos .cr,.lb .cr{display:block;margin-top:5px;font-family:var(--f-ui);font-size:12px;line-height:1.35;color:var(--muted)}
+.photos .cr a,.lb .cr a{color:inherit}
+dialog.lb{width:min(1120px,94vw);max-height:94vh;padding:0;border:1px solid var(--rule);border-radius:4px;background:var(--paper);color:var(--ink)}
+dialog.lb::backdrop{background:rgba(8,12,18,.78)}
+dialog.lb img{display:block;max-width:100%;max-height:76vh;margin:0 auto;background:var(--sea)}
+dialog.lb .lbc{padding:10px 16px 14px;font-size:15.5px;line-height:1.4}
+dialog.lb .x{position:absolute;top:8px;right:8px;font-family:var(--f-ui);font-size:14px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:4px;padding:4px 10px;cursor:pointer}
+.imgcred{margin:0;padding-left:20px;font-size:14.5px} .imgcred li{margin:3px 0}
+@media (max-width:700px){ nav.tabs{flex-basis:100%} .figs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .photos{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:84%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}
+  .photos.n1{grid-auto-columns:100%} .photos figure{scroll-snap-align:start} }
+@media (max-width:560px){
+  .ev{grid-template-columns:minmax(0,1fr);gap:4px}
+  .tl .row{grid-template-columns:70px 26px minmax(0,1fr)}
+  .mapbox{aspect-ratio:4/3}
+  .brand{font-size:18px}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">2,700 Years of Pontic Greek History<small>Work in progress</small></div>
+    <nav class="tabs" role="tablist" aria-label="Sections" id="tabs"></nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="s-overview" data-tab="overview" class="stack">
+  <div class="stack" style="gap:10px">
+    <div class="eyebrow">756 BC to 1923</div>
+    <h1>The Pontic Greeks and their land</h1>
+    <p class="lede">For 2,700 years Greeks lived on the southern shore of the Black Sea, from the founding of Trapezous by Sinope (by tradition in 756 BC) to the exchange of populations in 1923. This atlas maps their towns and villages as they were before 1923 and the peoples who lived beside them, and tells their history in twelve chapters.</p>
+  </div>
+  <div class="wip"><b>Work in progress.</b> A work by Iosif Lazaridis (<a href="https://x.com/iosif_lazaridis" rel="noopener">@iosif_lazaridis</a> on X), supervising research by Anthropic's Claude, from public sources and from sources kindly provided by readers. The atlas will be corrected and extended as feedback comes in; see <a href="#about" data-goto="about">About</a> for how to send corrections and sources.</div>
+  <div class="photos" id="ph-overview"></div>
+  <div class="figs" id="figs"></div>
+  <div class="grid2">
+    <div class="sheet stack">
+      <div><div class="eyebrow">The core of the atlas</div><h3>The six metropolises, c. 1920</h3></div>
+      <div class="tablewrap"><table id="mettable"></table></div>
+      <p class="muted ui" style="font-size:13.5px;margin:0">Places: the Orthodox villages, towns and hamlets of each metropolis in the atlas's village list; "located" means an exact or approximate position. Communities, churches and schools: Black Book of the Central Council of Pontus (Athens 1922, p. 19), a Greek source. Its churches column adds up to 1,174, not the 1,134 printed.</p>
+    </div>
+    <div class="sheet stack policy">
+      <div><div class="eyebrow">How sources are handled</div><h3>Source policy</h3></div>
+      <ol>
+        <li>Every source is named.</li>
+        <li>On contested topics the atlas gives the range of opinion, with each holder's origin: Greek, Greek diaspora, Turkish (mainstream or critical), Turkish-born scholar abroad, Armenian, international scholar, or contemporary witness.</li>
+        <li>It says what was not found as well as what was, so that the gaps can be filled later.</li>
+        <li>Possible duplicate villages are flagged, never merged without a source.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="stack" style="gap:12px">
+    <div><div class="eyebrow">Twelve chapters</div><h2>The history</h2></div>
+    <div class="chlist" id="chlist"></div>
+  </div>
+</section>
+
+<section id="s-chapters" data-tab="chapters" hidden>
+  <div class="chview">
+    <nav class="chnav" id="chnav" aria-label="Chapters"></nav>
+    <div style="min-width:0">
+      <select class="chsel" id="chsel" aria-label="Chapter"></select>
+      <div id="chbody"><div class="loading">Loading…</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="s-timeline" data-tab="timeline" class="stack" hidden>
+  <div><div class="eyebrow">612 dated events</div><h2>Timeline</h2></div>
+  <canvas class="density" id="density" aria-label="Events per period"></canvas>
+  <div class="filters">
+    <input type="search" id="tlq" placeholder="Search events" aria-label="Search events">
+    <label><select id="tlch" aria-label="Chapter"><option value="">All chapters</option></select></label>
+    <span class="status" id="tlcount"></span>
+  </div>
+  <div class="tl" id="tl"></div>
+</section>
+
+<section id="s-settlements" data-tab="settlements" class="stack" hidden>
+  <div><div class="eyebrow">The villages</div><h2>Greek villages before 1923</h2></div>
+  <p class="lede" style="font-size:17px">Every Orthodox village, town and hamlet found so far in the six metropolises, with the outer layer (Kars and Ardahan, Bayburt and the Sivas side) and the Greek-speaking Muslim villages. Hollow dots are approximate positions; places known only to their district are not drawn. Select a place to see its names, figures, fate, sources and what is still missing. "CAMS" is the Centre for Asia Minor Studies in Athens, whose list of Pontic villages was compiled from the refugees; "Black Book" is the Central Council of Pontus' statistics of 1922.</p>
+  <div class="photos" id="ph-settlements"></div>
+  <div class="filters">
+    <span class="acwrap"><input type="search" id="sq" placeholder="Name (Greek, Ottoman or modern)" aria-label="Search places" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sq-ac" autocomplete="off"><div class="ac" id="sq-ac" role="listbox" hidden></div></span>
+    <select id="smet" aria-label="Metropolis"><option value="">All metropolises</option></select>
+    <select id="slang" aria-label="Language"><option value="">Any language</option><option>Pontic Greek</option><option>Turkish</option><option value="unknown">Unknown</option></select>
+    <select id="slayer" aria-label="Layer"><option value="">All layers</option><option value="core">Six metropolises</option><option value="outer">Outer layer</option><option value="muslim_greek">Greek-speaking Muslims</option></select>
+    <select id="scol" aria-label="Colour by"><option value="lang">Colour by language</option><option value="met">Colour by metropolis</option></select>
+    <label><input type="checkbox" id="smon"> medieval monuments (Bryer &amp; Winfield)</label>
+    <span class="status" id="scount"></span>
+  </div>
+  <div class="explorer">
+    <div style="min-width:0">
+      <div class="mapbox" id="smap"><canvas></canvas><div class="mapctl"><button data-z="1" aria-label="Zoom in">+</button><button data-z="-1" aria-label="Zoom out">−</button><button data-z="0" aria-label="Reset view" style="font-size:13px">⤢</button></div></div>
+      <div class="legend" id="slegend"></div>
+    </div>
+    <div class="stack" style="gap:0;min-width:0">
+      <div class="detail" id="sdetail"></div>
+      <div class="results" id="sresults"></div>
+    </div>
+  </div>
+</section>
+
+<section id="s-peoples" data-tab="peoples" class="stack" hidden>
+  <div><div class="eyebrow">Beside the Greeks</div><h2>The other peoples of the Pontus</h2></div>
+  <p class="lede" style="font-size:17px">Armenians (including the Hemshin), the Muslim communities by language and sect, Latins, Jews and other non-Muslims, and the places where language and religion cross. Turn layers on and off; select a point for its figures and sources.</p>
+  <div class="photos" id="ph-peoples"></div>
+  <div class="filters">
+    <span class="acwrap"><input type="search" id="pq" placeholder="Search name or group" aria-label="Search peoples" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="pq-ac" autocomplete="off"><div class="ac" id="pq-ac" role="listbox" hidden></div></span>
+    <select id="pgroup" aria-label="Group"><option value="">All groups</option></select>
+    <span class="status" id="pcount"></span>
+  </div>
+  <div class="explorer">
+    <div style="min-width:0">
+      <div class="mapbox" id="pmap"><canvas></canvas><div class="mapctl"><button data-z="1" aria-label="Zoom in">+</button><button data-z="-1" aria-label="Zoom out">−</button><button data-z="0" aria-label="Reset view" style="font-size:13px">⤢</button></div></div>
+      <div class="legend" id="plegend"></div>
+    </div>
+    <div class="stack" style="gap:0;min-width:0">
+      <div class="detail" id="pdetail"></div>
+      <div class="results" id="presults"></div>
+    </div>
+  </div>
+  <div class="sheet stack">
+    <div><div class="eyebrow">Armenian Apostolic dioceses touching the Pontus</div><h3>The prelates of 1915 and their fate</h3></div>
+    <div class="tablewrap"><table id="diotable"></table></div>
+  </div>
+</section>
+
+<section id="s-maps" data-tab="maps" class="stack" hidden>
+  <div><div class="eyebrow">Sample maps</div><h2>Maps</h2></div>
+  <p class="lede" style="font-size:17px">Five sample maps on the relief base, one per period. Every line between waypoints follows the easiest ground on the elevation model and is not a recovered road; every border before the modern era is schematic.</p>
+  <div class="mapsgrid" id="mapsgrid"></div>
+</section>
+
+<section id="s-sources" data-tab="sources" class="stack" hidden>
+  <div><div class="eyebrow">Who says what</div><h2>Sources</h2></div>
+  <p class="lede" style="font-size:17px">The source register: every work cited in the data, with its origin label and how often it is used.</p>
+  <div class="filters"><input type="search" id="srq" placeholder="Search works" aria-label="Search sources"><select id="srorigin" aria-label="Origin"><option value="">All origins</option></select><span class="status" id="srcount"></span></div>
+  <div class="tablewrap sheet" style="padding:6px 12px"><table id="srctable"></table></div>
+</section>
+
+<section id="s-gaps" data-tab="gaps" class="stack" hidden>
+  <div><div class="eyebrow">For future research</div><h2>What we did not find</h2></div>
+  <div class="sheet prose" id="gapsmd"></div>
+</section>
+
+<section id="s-data" data-tab="data" class="stack" hidden>
+  <div><div class="eyebrow">Open data</div><h2>Data files</h2></div>
+  <p class="lede" style="font-size:17px">The tables behind the atlas, as CSV. </p>
+  <div class="dl" id="dl"></div>
+  <p class="status" id="dlstatus"></p>
+</section>
+
+<section id="s-about" data-tab="about" class="stack" hidden>
+  <div><div class="eyebrow">Who made this, and how</div><h2>About</h2></div>
+  <div class="sheet stack">
+    <h3>A work in progress</h3>
+    <p style="margin:0">2,700 Years of Pontic Greek History is a work by <b>Iosif Lazaridis</b> (<a href="https://x.com/iosif_lazaridis" rel="noopener">@iosif_lazaridis</a> on X), supervising research by Anthropic's Claude. It draws on public sources and on sources kindly provided by readers.</p>
+    <p style="margin:0">It is unfinished. Every figure and claim names its source, with the source's origin, and every village record says what is still missing.</p>
+    <p style="margin:0"><b>Corrections and sources are welcome.</b> To send a correction, a missing village or a document, write to <span class="ui" style="user-select:all">@iosif_lazaridis</span> on X.</p>
+  </div>
+  <div class="sheet stack">
+    <h3>Data and map credits</h3>
+    <ul style="margin:0;padding-left:20px">
+      <li>Elevation: Terrain Tiles on AWS (Mapzen; SRTM, GMTED2010, ETOPO1). Coast, rivers, lakes and borders: Natural Earth (public domain).</li>
+      <li>Village coordinates and old names: mostly S. Nişanyan, Index Anatolicus (nisanyanyeradlari.com), with GeoNames and the pontosworld village maps.</li>
+      <li>Village lists: the Center for Asia Minor Studies list (via Samouilidis 1992 and pontosworld.com); Chrysanthos's 1913–14 table; the Greek consular census of 1911 as printed by Kitromilides &amp; Alexandris (1984); the Black Book (1922).</li>
+      <li>Medieval monuments: A. Bryer &amp; D. Winfield, <i>The Byzantine Monuments and Topography of the Pontos</i> (Dumbarton Oaks, 1985); crypto-Christian villages of 1857: A. Bryer, Δελτίο ΚΜΣ 4 (1983).</li>
+      <li>Every other source is listed, with its origin, under <a href="#sources" data-goto="sources">Sources</a>.</li>
+    </ul>
+  </div>
+  <div class="sheet stack" id="imgcredits-box" hidden>
+    <h3>Image credits</h3>
+    <p class="muted" style="margin:0;font-size:15px">Apart from the atlas's own cover map, the pictures are from Wikimedia Commons and, for two postcards, from Salt Research (Istanbul), under the licences named below. Copies are kept with the site, reduced in size; each credit links to the archive's own record. Some are cropped on screen (click a picture to see it whole). The captions are ours.</p>
+    <ul class="imgcred" id="imgcredits"></ul>
+  </div>
+</section>
+
+</main>
+<dialog class="lb" id="lb" aria-label="Image"><button class="x" type="button" id="lbx">Close</button><img id="lbimg" alt=""><div class="lbc" id="lbc"></div></dialog>
+<footer class="site"><div class="wrap">2,700 Years of Pontic Greek History · Work in progress by Iosif Lazaridis (<a href="https://x.com/iosif_lazaridis" rel="noopener">@iosif_lazaridis</a>), supervising research by Anthropic's Claude · public sources and sources kindly provided by readers</div></footer>
+
+<script src="vendor/marked.min.js"></script>
+<script>
+(() => {
+'use strict';
+const TABS = [['overview','Overview'],['chapters','Chapters'],['timeline','Timeline'],['settlements','Villages'],['peoples','Peoples'],['maps','Maps'],['sources','Sources'],['gaps','Not found'],['data','Data'],['about','About']];
+const $ = (s, r=document) => r.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = n => Number(n).toLocaleString('en-GB');
+const cache = {};
+const norm = v => String(v ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/ς/g, 'σ').replace(/ı/g, 'i').replace(/['’ʼ`]/g, '');
+function autocomplete(input, box, search, pick) {
+  let items = [], idx = -1;
+  const close = () => { box.hidden = true; input.setAttribute('aria-expanded', 'false'); idx = -1; };
+  const paint = () => box.querySelectorAll('button').forEach((b, i) => { b.setAttribute('aria-selected', i === idx); if (i === idx) b.scrollIntoView({block: 'nearest'}); });
+  const open = () => { const q = norm(input.value.trim()); if (!q) { close(); return; } const r = search(q); items = r.items;
+    if (!items.length) { box.innerHTML = '<div class="more">No match.</div>'; box.hidden = false; input.setAttribute('aria-expanded', 'true'); return; }
+    box.innerHTML = items.map((it, i) => `<button type="button" role="option" id="${box.id}-${i}" data-i="${i}"><span>${it.label}</span><small>${esc(it.sub || '')}</small></button>`).join('') + (r.more ? `<div class="more">${r.more} more; keep typing to narrow.</div>` : '');
+    box.hidden = false; input.setAttribute('aria-expanded', 'true'); idx = -1; };
+  input.addEventListener('input', open); input.addEventListener('focus', open);
+  input.addEventListener('keydown', e => { if (box.hidden || !items.length) return;
+    if (e.key === 'ArrowDown') { idx = Math.min(items.length - 1, idx + 1); paint(); e.preventDefault(); }
+    else if (e.key === 'ArrowUp') { idx = Math.max(0, idx - 1); paint(); e.preventDefault(); }
+    else if (e.key === 'Enter') { const it = items[idx >= 0 ? idx : 0]; if (it) { pick(it.rec); close(); } e.preventDefault(); }
+    else if (e.key === 'Escape') close(); });
+  box.addEventListener('mousedown', e => e.preventDefault());
+  box.addEventListener('click', e => { const b = e.target.closest('button'); if (b) { pick(items[+b.dataset.i].rec); close(); } });
+  input.addEventListener('blur', () => setTimeout(close, 120));
+}
+function rank(L, q, keysOf, max = 12) {
+  const scored = [];
+  for (const r of L) { const ks = keysOf(r); let best = 9;
+    for (const k of ks) { if (!k) continue; const i = k.indexOf(q); if (i === 0) { best = 0; break; } if (i > 0) best = Math.min(best, k[i - 1] === ' ' || k[i - 1] === '-' || k[i - 1] === '(' ? 1 : 2); }
+    if (best < 9) scored.push([best, r]); }
+  scored.sort((a, b) => a[0] - b[0]);
+  return {list: scored.slice(0, max).map(x => x[1]), total: scored.length};
+}
+const hl = (text, q) => { const t = String(text || ''); const chars = [...t]; let n = '', map = [];
+  chars.forEach((c, j) => { const k = norm(c); for (const _ of k) map.push(j); n += k; });
+  const i = n.indexOf(q); if (i < 0 || !q) return esc(t);
+  const a = map[i], z = map[i + q.length - 1] + 1;
+  return esc(chars.slice(0, a).join('')) + '<b>' + esc(chars.slice(a, z).join('')) + '</b>' + esc(chars.slice(z).join('')); };
+const getJSON = p => cache[p] || (cache[p] = new Promise((ok, fail) => {
+  window.__D = window.__D || {}; if (window.__D[p]) return ok(window.__D[p]);
+  const s = document.createElement('script'); s.src = p.replace(/\.json$/, '.js');
+  s.onload = () => window.__D[p] ? ok(window.__D[p]) : fail(new Error(p + ': no data'));
+  s.onerror = () => fail(new Error(p + ': could not load')); document.head.appendChild(s); }));
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const md = s => { try { return window.marked ? marked.parse(s, {mangle:false, headerIds:false}) : '<pre>' + esc(s) + '</pre>'; } catch (e) { return '<pre>' + esc(s) + '</pre>'; } };
+const wrapTables = el => el.querySelectorAll('table').forEach(t => { if (!t.parentElement.classList.contains('tablewrap')) { const w = document.createElement('div'); w.className = 'tablewrap'; t.replaceWith(w); w.appendChild(t); } });
+const PREC = {exact: 'exact', approx: 'approximate', district: 'only the district is known', kaza: 'only the district is known', region: 'only the region is known', city: 'the town', none: 'not located'};
+const CONF = {high: 'well attested', medium: 'attested', low: 'uncertain'};
+const EVID = {high: 'well documented', medium: 'more than one source', low: 'a single source'};
+const BASIS = {neutral:'neutral sources', mixed:'mixed sources', greek:'Greek sources', scholarly:'scholarly', armenian:'Armenian sources', turkish_neutral:'Turkish (neutral fact)', turkish_dissident:'Turkish writer arguing for recognition', ottoman_official:'Ottoman state record', turkish:'Turkish sources', turkish_only:'Turkish sources only'};
+
+// ---------- photographs (data/images.json) ----------
+let PH = null;
+const loadPH = () => PH || (PH = getJSON('data/images.json').catch(() => ({pages: {}})));
+const phLink = (u, t) => `<a href="${esc(u)}" rel="noopener" target="_blank">${esc(t)}</a>`;
+const phCredit = p => p.credit ? esc(p.credit) : `${esc(p.author)} · ${p.license_url ? phLink(p.license_url, p.license) : esc(p.license)} · ${phLink(p.file_page, p.source || 'Wikimedia Commons')}${(p.also || []).map(a => ' · ' + phLink(a[0], a[1])).join('')}`;
+async function photos(key, el) {
+  if (!el) return;
+  const d = await loadPH(); const L = (d.pages || {})[key] || [];
+  el.classList.toggle('n1', L.length === 1); el.classList.toggle('wide', L.length === 1 && !!L[0].wide); el.style.setProperty('--n', L.length || 1);
+  el.innerHTML = L.map((p, i) => `<figure><button class="ph" type="button" data-k="${esc(key)}" data-i="${i}" aria-label="Enlarge: ${esc(p.alt)}"><img src="${esc(p.src)}" alt="${esc(p.alt)}" width="${p.w}" height="${p.h}" loading="lazy" decoding="async"${p.fit === 'contain' ? ' class="contain"' : ''}${p.pos ? ` style="object-position:${esc(p.pos)}"` : ''}></button><figcaption>${esc(p.caption)}<span class="cr">${phCredit(p)}</span></figcaption></figure>`).join('');
+  // a picture that fails to load is dropped quietly
+  el.querySelectorAll('img').forEach(im => im.addEventListener('error', () => { im.closest('figure').remove(); const n = el.querySelectorAll('figure').length;
+    if (!n) el.innerHTML = ''; else { el.style.setProperty('--n', n); el.classList.toggle('n1', n === 1); } }));
+}
+document.addEventListener('click', async e => {
+  const b = e.target.closest('.photos .ph'); if (!b) return;
+  const p = ((await loadPH()).pages[b.dataset.k] || [])[+b.dataset.i]; if (!p) return;
+  const lb = $('#lb'); $('#lbimg').src = p.full || p.src; $('#lbimg').alt = p.alt;
+  $('#lbc').innerHTML = `${esc(p.caption)}<span class="cr">${phCredit(p)}</span>`;
+  if (lb.showModal) lb.showModal(); else lb.setAttribute('open', '');
+});
+$('#lbx').onclick = () => $('#lb').close();
+$('#lb').addEventListener('click', e => { if (e.target.id === 'lb') e.target.close(); });
+
+// ---------- tabs ----------
+const tabsEl = $('#tabs'); const shown = {};
+TABS.forEach(([k, l]) => { const b = document.createElement('button'); b.textContent = l; b.setAttribute('role','tab'); b.dataset.k = k; b.onclick = () => show(k, true); tabsEl.appendChild(b); });
+function show(k, user) {
+  if (!TABS.some(t => t[0] === k)) k = 'overview';
+  document.querySelectorAll('main > section').forEach(s => s.hidden = s.dataset.tab !== k);
+  tabsEl.querySelectorAll('button').forEach(b => b.setAttribute('aria-selected', b.dataset.k === k));
+  try { localStorage.setItem('pontus-tab', k); } catch (e) {}
+  if (user) window.scrollTo({top:0});
+  if (!shown[k]) { shown[k] = true; (INIT[k] || (() => {}))(); photos(k, document.getElementById('ph-' + k)).catch(() => {}); }
+  if (k === 'settlements' && SMAP) SMAP.resize();
+  if (k === 'peoples' && PMAP) PMAP.resize();
+}
+window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (/^ch\d+$/.test(h)) { show('chapters'); openChapter(+h.slice(2)); } else show(h); });
+
+// ---------- overview ----------
+const BB = {Amaseia:[400,603,518], Neocaesarea:[95,135,106], Trebizond:[70,127,84], Chaldia:[145,182,152], Rhodopolis:[41,53,45], Kolonia:[64,74,55]};
+let OV;
+async function initOverview() {
+  OV = await getJSON('data/overview.json');
+  const F = [[OV.core, 'places in the six metropolises'], [OV.core_located, 'of them located on the map'], [OV.outer, 'places in the outer layer'], [OV.muslim_greek, 'Greek-speaking Muslim villages'],
+             [OV.events, 'dated events in 12 chapters'], [OV.turkish, 'claims found only in Turkish sources'], [OV.peoples, 'rows on the other peoples']];
+  $('#figs').innerHTML = F.map(([n, l]) => `<div><b>${fmt(n)}</b><span>${l}</span></div>`).join('');
+  const order = ['Trebizond','Rhodopolis','Chaldia','Kolonia','Neocaesarea','Amaseia'];
+  let rows = order.map(m => { const g = OV.bymet[m] || [0,0]; const b = BB[m]; return `<tr><td>${m}</td><td class="n">${fmt(g[0])}</td><td class="n">${fmt(g[1])}</td><td class="n">${b[0]}</td><td class="n">${b[1]}</td><td class="n">${b[2]}</td></tr>`; }).join('');
+  const amb = OV.bymet['Chaldia or Kolonia'];
+  if (amb) rows += `<tr><td class="muted">Chaldia or Kolonia</td><td class="n">${amb[0]}</td><td class="n">${amb[1]}</td><td></td><td></td><td></td></tr>`;
+  $('#mettable').innerHTML = `<thead><tr><th>Metropolis</th><th class="n">Places</th><th class="n">Located</th><th class="n">Comm.</th><th class="n">Churches</th><th class="n">Schools</th></tr></thead><tbody>${rows}</tbody><tfoot><tr><th>Total</th><th class="n">${fmt(OV.core)}</th><th class="n">${fmt(OV.core_located)}</th><th class="n">815</th><th class="n">1,134</th><th class="n">960</th></tr></tfoot>`;
+  $('#chlist').innerHTML = OV.chapters.map(c => `<button class="chcard" data-ch="${c.n}"><span class="num">${c.n}</span><span><span class="t">${esc(c.title)}</span><span class="m">${c.events} events${c.turkish ? ` · ${c.turkish} Turkish-source` : ''}</span></span></button>`).join('');
+  $('#chlist').onclick = e => { const b = e.target.closest('.chcard'); if (b) { show('chapters', true); openChapter(+b.dataset.ch); } };
+}
+
+// ---------- chapters ----------
+let CUR = null, SUB = 'narrative';
+async function initChapters() {
+  const ov = OV || await getJSON('data/overview.json');
+  $('#chnav').innerHTML = ov.chapters.map(c => `<button data-ch="${c.n}"><b>${c.n}</b><span>${esc(c.title)}</span></button>`).join('');
+  $('#chsel').innerHTML = ov.chapters.map(c => `<option value="${c.n}">${c.n}. ${esc(c.title)}</option>`).join('');
+  $('#chnav').onclick = e => { const b = e.target.closest('button'); if (b) openChapter(+b.dataset.ch); };
+  $('#chsel').onchange = e => openChapter(+e.target.value);
+  if (CUR === null) openChapter(0);
+  else { $('#chsel').value = CUR; document.querySelectorAll('#chnav button').forEach(b => b.setAttribute('aria-current', +b.dataset.ch === CUR)); }
+}
+function evCard(e, tk) {
+  const places = (e.places || []).map(p => esc(p.name) + (p.certainty && p.certainty !== 'secure' ? ` <span class="muted">(${esc(p.certainty)})</span>` : '')).join('; ');
+  const sp = (e.sources_primary || []).map(s => `<li>${esc(s)}</li>`).join(''), sm = (e.sources_modern || []).map(s => `<li>${esc(s)}</li>`).join('');
+  const ce = e.counter_evidence ? `<div class="disp"><b>Counter-evidence:</b> ${esc(typeof e.counter_evidence === 'string' ? e.counter_evidence : JSON.stringify(e.counter_evidence))}</div>` : '';
+  return `<article class="ev${tk ? ' tkev' : ''}" id="ev-${esc(e.id)}"><div class="d">${esc(e.date_text || e.date)}<span class="id">${esc(e.id)}</span></div><div>
+    <h4>${esc(e.title)}</h4><p>${esc(e.summary)}</p>
+    ${places ? `<p class="muted" style="font-size:14.5px">Places: ${places}</p>` : ''}
+    ${e.disputed && e.disputed !== 'None' ? `<div class="disp"><b>Disputed or uncertain:</b> ${esc(e.disputed)}</div>` : ''}${ce}
+    <div class="meta">${e.confidence ? `<span class="chip ${esc(e.confidence)}">${esc(CONF[e.confidence] || e.confidence)}</span>` : ''}${e.basis ? `<span class="chip${tk ? ' tk' : ''}">${esc(BASIS[e.basis] || e.basis)}</span>` : ''}</div>
+    ${sp || sm ? `<details><summary>Sources</summary>${sp ? `<div class="ui muted" style="font-size:13px;margin-top:6px">Primary</div><ul>${sp}</ul>` : ''}${sm ? `<div class="ui muted" style="font-size:13px">Modern</div><ul>${sm}</ul>` : ''}${e.basis_detail ? `<p class="muted" style="font-size:14px">${esc(e.basis_detail)}</p>` : ''}</details>` : ''}
+  </div></article>`;
+}
+async function openChapter(n) {
+  CUR = n;
+  document.querySelectorAll('#chnav button').forEach(b => b.setAttribute('aria-current', +b.dataset.ch === n));
+  $('#chsel').value = n;
+  const body = $('#chbody'); body.innerHTML = '<div class="loading">Loading…</div>';
+  const d = await getJSON(`data/ch${String(n).padStart(2,'0')}.json`);
+  if (CUR !== n) return;
+  body.innerHTML = `<div class="eyebrow">Chapter ${n}</div><h2>${esc(d.title)}</h2>
+    <div class="photos" id="ph-ch" style="margin:6px 0 18px"></div>
+    <div class="subtabs" role="tablist">
+      <button data-s="narrative">Narrative</button><button data-s="events">Events (${d.events.length})</button>
+      ${d.turkish.length ? `<button data-s="turkish" class="tkb">What the Turkish sources say (${d.turkish.length})</button>` : ''}
+      </div><div id="chsub"></div>`;
+  photos('ch' + String(n).padStart(2, '0'), $('#ph-ch')).catch(() => {});
+  body.querySelector('.subtabs').onclick = e => { const b = e.target.closest('button'); if (b) { SUB = b.dataset.s; renderSub(d); } };
+  if ((SUB === 'turkish' && !d.turkish.length) || SUB === 'open') SUB = 'narrative';
+  renderSub(d);
+}
+function renderSub(d) {
+  document.querySelectorAll('#chbody .subtabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.s === SUB));
+  const el = $('#chsub');
+  if (SUB === 'narrative') {
+    const ids = new Set(d.events.map(e => e.id));
+    const html = md(d.synthesis).replace(/(?<![\w-])([A-Z]{1,3}\d?[a-z]?-(?:T)?\d{2,3}[a-z]?)(?![\w-])/g, (m, id) => ids.has(id) ? `<a href="#" class="evref" data-ev="${id}">${id}</a>` : m);
+    el.innerHTML = `<div class="prose">${html}</div>`; wrapTables(el);
+    el.onclick = e => { const a = e.target.closest('a.evref'); if (!a) return; e.preventDefault(); PENDING_EV = a.dataset.ev; SUB = 'events'; renderSub(d); };
+  } else if (SUB === 'events') {
+    el.innerHTML = `<div class="filters" style="margin-bottom:8px"><input type="search" id="evq" placeholder="Search this chapter" aria-label="Search events"></div><div class="events" id="evlist"></div>`;
+    const draw = () => { const q = $('#evq').value.toLowerCase();
+      const L = d.events.filter(e => (!q || (e.title + ' ' + e.summary + ' ' + e.id).toLowerCase().includes(q)));
+      $('#evlist').innerHTML = L.map(e => evCard(e)).join('') || '<p class="muted">No events match.</p>'; };
+    $('#evq').oninput = draw; draw();
+    if (PENDING_EV) { const t = document.getElementById('ev-' + PENDING_EV); PENDING_EV = null; if (t) { t.scrollIntoView({block:'start'}); t.style.background = 'var(--accent-soft)'; } }
+  } else if (SUB === 'turkish') {
+    el.innerHTML = `<div class="events">${d.turkish.map(e => evCard(e, true)).join('')}</div>`;
+  }
+}
+
+// ---------- timeline ----------
+let TL, PENDING_EV = null;
+const ERAS = [[-3000,-700,'Before the colonies'],[-700,-301,'Archaic and classical'],[-300,63,'Hellenistic Pontus'],[64,329,'Roman Pontus'],[330,1203,'Roman Empire from Constantinople'],[1204,1461,'The Empire of Trebizond'],[1462,1799,'The Ottoman centuries'],[1800,1913,'The long 19th century'],[1914,1923,'War, genocide and exchange'],[1924,2100,'After the exchange']];
+const yr = y => y < 0 ? `${-y} BC` : (y < 1000 ? `AD ${y}` : String(y));
+async function initTimeline() {
+  TL = await getJSON('data/timeline.json');
+  const ov = OV || await getJSON('data/overview.json');
+  $('#tlch').innerHTML += ov.chapters.map(c => `<option value="${c.n}">${c.n}. ${esc(c.title)}</option>`).join('');
+  ['tlq','tlch'].forEach(id => $('#' + id).addEventListener('input', drawTL));
+  $('#tl').onclick = e => { const b = e.target.closest('button.t'); if (!b) return; PENDING_EV = b.dataset.id; SUB = 'events'; show('chapters', true); openChapter(+b.dataset.c); };
+  drawTL(); drawDensity();
+}
+function drawTL() {
+  const q = $('#tlq').value.toLowerCase(), ch = $('#tlch').value;
+  const L = TL.filter(e => (ch === '' || e.c === +ch) && (!q || e.t.toLowerCase().includes(q))).sort((a, b) => a.y - b.y);
+  $('#tlcount').textContent = `${L.length} events`;
+  let html = '', era = null;
+  for (const e of L) {
+    const E = ERAS.find(r => e.y >= r[0] && e.y <= r[1]);
+    if (E && E !== era) { era = E; html += `<div class="era">${E[2]}</div>`; }
+    html += `<div class="row"><span class="y">${esc(e.d.length < 22 ? e.d : yr(e.y))}</span><span class="c" title="Chapter ${e.c}">${e.c}</span><span><button class="t" data-id="${esc(e.id)}" data-c="${e.c}">${esc(e.t)}</button></span></div>`;
+  }
+  $('#tl').innerHTML = html || '<p class="muted">No events match.</p>';
+}
+function drawDensity() {
+  const c = $('#density'), dpr = window.devicePixelRatio || 1, w = c.clientWidth, h = 70; c.width = w * dpr; c.height = h * dpr;
+  const x = c.getContext('2d'); x.scale(dpr, dpr); x.clearRect(0, 0, w, h);
+  const bins = ERAS.map(E => TL.filter(e => e.y >= E[0] && e.y <= E[1]).length), mx = Math.max(...bins), bw = w / bins.length;
+  x.font = `12px ${css('--f-ui')}`; x.textAlign = 'center';
+  bins.forEach((n, i) => { const bh = (h - 22) * n / mx; x.fillStyle = css('--accent'); x.globalAlpha = .75; x.fillRect(i * bw + 3, h - 18 - bh, bw - 6, bh); x.globalAlpha = 1;
+    x.fillStyle = css('--muted'); x.fillText(String(n), i * bw + bw / 2, h - 22 - bh - 3 < 10 ? 12 : h - 22 - bh - 1); x.fillText(ERAS[i][2].split(' ').slice(0, 2).join(' '), i * bw + bw / 2, h - 4); });
+}
+
+// ---------- map explorer (shared) ----------
+class MapView {
+  constructor(box, base, img, opts) {
+    this.box = box; this.cv = box.querySelector('canvas'); this.base = base; this.img = img; this.pts = []; this.sel = null; this.opts = opts;
+    this.s = 1; this.tx = 0; this.ty = 0; this.fit();
+    const cv = this.cv; let drag = null, moved = false; const ptrs = new Map(); let pinch = null;
+    cv.addEventListener('pointerdown', e => { cv.setPointerCapture(e.pointerId); ptrs.set(e.pointerId, [e.offsetX, e.offsetY]); moved = false;
+      if (ptrs.size === 2) { const [a, b] = [...ptrs.values()]; pinch = {d: Math.hypot(a[0]-b[0], a[1]-b[1]), s: this.s, cx: (a[0]+b[0])/2, cy: (a[1]+b[1])/2}; drag = null; }
+      else drag = {x: e.offsetX, y: e.offsetY, tx: this.tx, ty: this.ty}; });
+    cv.addEventListener('pointermove', e => { if (!ptrs.has(e.pointerId)) { this.hover(e.offsetX, e.offsetY); return; } ptrs.set(e.pointerId, [e.offsetX, e.offsetY]);
+      if (pinch && ptrs.size === 2) { const [a, b] = [...ptrs.values()]; const d = Math.hypot(a[0]-b[0], a[1]-b[1]); this.zoomAt(pinch.cx, pinch.cy, pinch.s * d / pinch.d / this.s); moved = true; }
+      else if (drag) { const dx = e.offsetX - drag.x, dy = e.offsetY - drag.y; if (Math.abs(dx) + Math.abs(dy) > 3) moved = true; this.tx = drag.tx + dx; this.ty = drag.ty + dy; this.clamp(); this.draw(); } });
+    const up = e => { ptrs.delete(e.pointerId); if (ptrs.size < 2) pinch = null; if (drag && !moved && e.type === 'pointerup') this.click(e.offsetX, e.offsetY); drag = null; };
+    cv.addEventListener('pointerup', up); cv.addEventListener('pointercancel', up);
+    cv.addEventListener('wheel', e => { e.preventDefault(); this.zoomAt(e.offsetX, e.offsetY, Math.exp(-e.deltaY * 0.0015)); }, {passive: false});
+    box.querySelector('.mapctl').onclick = e => { const b = e.target.closest('button'); if (!b) return; const z = +b.dataset.z;
+      if (z === 0) { this.fit(); this.draw(); } else this.zoomAt(this.w / 2, this.h / 2, z > 0 ? 1.6 : 1 / 1.6); };
+    new ResizeObserver(() => this.resize()).observe(box);
+  }
+  resize() { const r = this.box.getBoundingClientRect(); if (!r.width) return; const ow = this.w; this.w = r.width; this.h = r.height; const dpr = window.devicePixelRatio || 1;
+    this.cv.width = this.w * dpr; this.cv.height = this.h * dpr; this.ctx = this.cv.getContext('2d'); this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0); if (!ow) this.fit(); else this.clamp(); this.draw(); }
+  fit() { const r = this.box.getBoundingClientRect(); this.w = this.w || r.width; this.h = this.h || r.height; if (!this.w) return;
+    this.s0 = Math.max(this.w / this.base.W, this.h / this.base.H); this.s = this.s0; this.tx = (this.w - this.base.W * this.s) / 2; this.ty = (this.h - this.base.H * this.s) / 2; }
+  clamp() { const W = this.base.W * this.s, H = this.base.H * this.s; this.tx = Math.min(0, Math.max(this.w - W, this.tx)); this.ty = Math.min(0, Math.max(this.h - H, this.ty)); if (W < this.w) this.tx = (this.w - W) / 2; if (H < this.h) this.ty = (this.h - H) / 2; }
+  zoomAt(x, y, f) { const s2 = Math.min(this.s0 * 14, Math.max(this.s0, this.s * f)); f = s2 / this.s; this.tx = x - (x - this.tx) * f; this.ty = y - (y - this.ty) * f; this.s = s2; this.clamp(); this.draw(); }
+  proj(lon, lat) { const b = this.base; const x = (lon + 180) / 360; const la = Math.max(-85, Math.min(85, lat)) * Math.PI / 180;
+    const y = (1 - Math.log(Math.tan(la) + 1 / Math.cos(la)) / Math.PI) / 2; return [(x - b.mx0) * b.k, (y - b.my0) * b.k]; }
+  setPoints(P) { this.pts = P; this.draw(); }
+  draw() { const c = this.ctx; if (!c || !this.w) return; c.clearRect(0, 0, this.w, this.h);
+    if (this.img.complete && this.img.naturalWidth) c.drawImage(this.img, this.tx, this.ty, this.base.W * this.s, this.base.H * this.s);
+    const z = Math.sqrt(this.s / this.s0), stroke = css('--paper');
+    for (const p of this.pts) { const x = p.x * this.s + this.tx, y = p.y * this.s + this.ty; if (x < -10 || y < -10 || x > this.w + 10 || y > this.h + 10) continue;
+      const r = (p.r || 3) * Math.min(z, 2.2); c.beginPath(); c.arc(x, y, r, 0, 6.2832);
+      if (p.sq) { c.beginPath(); c.rect(x - r, y - r, 2 * r, 2 * r); c.fillStyle = p.col; c.globalAlpha = .85; c.fill(); c.globalAlpha = 1; c.lineWidth = .7; c.strokeStyle = stroke; c.stroke(); continue; }
+      if (p.hollow) { c.lineWidth = 1.6; c.strokeStyle = p.col; c.stroke(); } else { c.fillStyle = p.col; c.globalAlpha = .9; c.fill(); c.globalAlpha = 1; c.lineWidth = .7; c.strokeStyle = stroke; c.stroke(); } }
+    if (this.sel) { const x = this.sel.x * this.s + this.tx, y = this.sel.y * this.s + this.ty; c.beginPath(); c.arc(x, y, 9, 0, 6.2832); c.lineWidth = 2.5; c.strokeStyle = css('--ink'); c.stroke(); }
+    if (this.hov && this.hov !== this.sel) { const x = this.hov.x * this.s + this.tx, y = this.hov.y * this.s + this.ty; c.font = `600 13px ${css('--f-ui')}`; const t = this.hov.label; const w = c.measureText(t).width;
+      const lx = Math.min(x + 9, this.w - w - 8), ly = Math.max(y - 9, 16); c.fillStyle = css('--paper'); c.globalAlpha = .92; c.fillRect(lx - 4, ly - 13, w + 8, 18); c.globalAlpha = 1; c.fillStyle = css('--ink'); c.fillText(t, lx, ly); } }
+  nearest(mx, my) { let best = null, bd = 12 * 12; for (const p of this.pts) { const dx = p.x * this.s + this.tx - mx, dy = p.y * this.s + this.ty - my, d = dx * dx + dy * dy; if (d < bd) { bd = d; best = p; } } return best; }
+  hover(x, y) { const p = this.nearest(x, y); if (p !== this.hov) { this.hov = p; this.draw(); } }
+  click(x, y) { const p = this.nearest(x, y); if (p) this.opts.onSelect(p.rec); }
+  select(rec, center) { const p = this.pts.find(q => q.rec === rec) || null; this.sel = p; if (p && center) { if (this.s < this.s0 * 3) this.s = this.s0 * 3; this.tx = this.w / 2 - p.x * this.s; this.ty = this.h / 2 - p.y * this.s; this.clamp(); } this.draw(); }
+}
+let BASE, BASEIMG;
+async function loadBase() { if (BASE) return; BASE = await getJSON('base/base.json'); BASEIMG = new Image(); BASEIMG.src = 'base/pontus.jpg';
+  await new Promise(r => { BASEIMG.onload = r; BASEIMG.onerror = r; }); }
+const list = a => (a || []).map(x => `<li>${esc(x)}</li>`).join('');
+
+// ---------- settlements ----------
+let ST, SMAP, MON = [];
+const MET_ORDER = ['Trebizond','Rhodopolis','Chaldia','Kolonia','Neocaesarea','Amaseia'];
+const metColor = m => ({Trebizond:'--violet', Rhodopolis:'--magenta', Chaldia:'--blue', Kolonia:'--brown', Neocaesarea:'--green', Amaseia:'--orange'}[m] || '--grey');
+const langColor = r => r.layer === 'muslim_greek' ? '--green' : r.lang === 'Pontic Greek' ? '--blue' : r.lang === 'Turkish' ? (r.langu ? '--orange2' : '--orange') : '--grey';
+async function initSettlements() {
+  await loadBase(); ST = await getJSON('data/settlements.json');
+  const mets = [...new Set(ST.map(r => r.met).filter(Boolean))].sort((a, b) => (MET_ORDER.indexOf(a) + 1 || 99) - (MET_ORDER.indexOf(b) + 1 || 99) || a.localeCompare(b));
+  $('#smet').innerHTML += mets.map(m => `<option>${esc(m)}</option>`).join('');
+  SMAP = new MapView($('#smap'), BASE, BASEIMG, {onSelect: r => r.__mon ? showMonument(r, false) : showPlace(r, false)});
+  ['sq','smet','slang','slayer','scol','smon'].forEach(id => $('#' + id).addEventListener('input', drawSettl));
+  getJSON('data/monuments.json').then(m => { MON = m; if ($('#smon').checked) drawSettl(); }).catch(() => {});
+  $('#sresults').onclick = e => { const b = e.target.closest('button'); if (b) showPlace(ST[+b.dataset.i], true); };
+  ST.forEach(r => { r._k = [r.gr, r.grl, r.ott, r.today, r.id].map(norm); r._ka = norm(r.admin); });
+  autocomplete($('#sq'), $('#sq-ac'), q => { const R = rank(ST, q, r => r._k.concat([r._ka])); return {items: R.list.map(r => ({rec: r,
+      label: hl(placeName(r), q) + (r.today && r.today !== placeName(r) ? ` <span class="muted">· ${hl(r.today, q)}</span>` : ''),
+      sub: (r.met || r.outer || '') + (r.prec === 'exact' || r.prec === 'approx' ? '' : ' · not on map')})), more: Math.max(0, R.total - R.list.length)}; },
+    r => { $('#sq').value = placeName(r); drawSettl(); showPlace(r, true); });
+  $('#sdetail').innerHTML = `<p class="muted">Select a dot on the map, or a name in the list below.</p>`;
+  drawSettl();
+}
+function placeName(r) { return r.gr || r.grl || r.ott || r.today || r.id; }
+function drawSettl() {
+  const q = norm($('#sq').value.trim()), met = $('#smet').value, lang = $('#slang').value, lay = $('#slayer').value, col = $('#scol').value;
+  const L = [];
+  ST.forEach((r, i) => {
+    if (met && r.met !== met) return;
+    if (lang && (lang === 'unknown' ? (r.lang && r.lang !== 'unknown') : r.lang !== lang)) return;
+    if (lay === 'core' && !(r.core && r.layer === 'orthodox')) return; if (lay === 'outer' && !r.outer) return; if (lay === 'muslim_greek' && r.layer !== 'muslim_greek') return;
+    if (q && !(r._k.some(k => k.includes(q)) || r._ka.includes(q))) return;
+    r._i = i; L.push(r);
+  });
+  const P = L.filter(r => (r.prec === 'exact' || r.prec === 'approx') && r.lat != null).map(r => { const [x, y] = SMAP.proj(r.lon, r.lat);
+    const pop = (r.c11 && r.c11[0] && r.c11[0].inhabitants) || 0;
+    return {x, y, rec: r, hollow: r.prec === 'approx', col: css(col === 'met' ? metColor(r.met) : langColor(r)), r: r.type === 'town' ? 4.4 : pop > 1000 ? 4 : 2.9, label: placeName(r)}; });
+  const nPl = P.length;
+  if ($('#smon').checked) MON.filter(m => m.lat != null).forEach(m => { const [x, y] = SMAP.proj(m.lon, m.lat); P.push({x, y, rec: {__mon: m}, sq: true, col: css('--mon'), r: 2.6, label: m.name}); });
+  SMAP.setPoints(P); SMAP.resize();
+  $('#scount').textContent = `${fmt(L.length)} places · ${fmt(nPl)} on the map` + (P.length > nPl ? ` · ${fmt(P.length - nPl)} monuments` : '');
+  $('#sresults').innerHTML = L.slice(0, 300).map(r => `<button data-i="${r._i}"><span>${esc(placeName(r))}${r.today && r.today !== placeName(r) ? ` <span class="muted">· ${esc(r.today)}</span>` : ''}</span><small>${esc(r.met || r.outer || '')}${r.prec === 'exact' || r.prec === 'approx' ? '' : ' · not on map'}</small></button>`).join('') + (L.length > 300 ? `<p class="status" style="padding:6px">First 300 of ${fmt(L.length)}; narrow the search.</p>` : '');
+  const lg = col === 'met' ? MET_ORDER.map(m => [m, metColor(m)]).concat([['other or outer', '--grey']])
+    : [['Pontic Greek', '--blue'], ['Turkish-speaking Orthodox', '--orange'], ['Turkish-speaking, uncertain (1911 ditto marks only)', '--orange2'], ['language unknown', '--grey'], ['Greek-speaking Muslims', '--green']];
+  $('#slegend').innerHTML = lg.map(([t, v]) => `<span><i style="background:var(${v})"></i>${t}</span>`).join('') + `<span><i class="hollow" style="border-color:var(--ink2)"></i>approximate position</span>` + ($('#smon').checked ? `<span><i style="background:var(--mon);border-radius:0"></i>monument (at its village's point)</span>` : '');
+}
+function showPlace(r, center) {
+  SMAP.select(r, center);
+  const names = [['Greek', r.gr], ['Latin script', r.grl], ['Ottoman', r.ott], ['Today', r.today], ['Administration today', r.admin]].filter(x => x[1]);
+  const pops = (r.pop || []).map(p => `<li>${esc(fmt(p.figure))} ${esc(p.unit || '')}${p.year ? ', ' + esc(p.year) : ''}${p.source ? ` <span class="muted">(${esc(p.source)})</span>` : ''}${p.doubt ? ` <span class="chip low">uncertain</span>` : ''}</li>`).join('');
+  const c11 = (r.c11 || []).map(c => `<li>1911 consular census, row ${c.row} ("${esc(c.name_printed)}"): ${fmt(c.inhabitants)} Orthodox, ${esc(c.language)}</li>`).join('');
+  const ch = r.ch14 ? `<li>Chrysanthos 1913–14${r.ch14.table_no ? `, table no. ${esc(r.ch14.table_no)}` : ''}: ${r.ch14.families != null ? fmt(r.ch14.families) + ' families' : ''}${r.ch14.churches != null ? `, ${r.ch14.churches} church(es)` : ''}${r.ch14.schools != null ? `, ${r.ch14.schools} school(s)` : ''}</li>` : '';
+  const gaps = (r.gaps || []).map(g => `<li><b>${esc(g.w.charAt(0).toUpperCase() + g.w.slice(1))}:</b> ${esc(g.s)}${g.ws && g.ws.length ? `<br><span class="muted" style="font-size:14px">Where to look: ${esc(g.ws.join('; '))}</span>` : ''}</li>`).join('');
+  const tk = r.tk ? Object.entries(r.tk).map(([k, v]) => `<p style="margin:4px 0"><b>${esc(k.replace('_turkish_account', '').replace('notes', 'notes'))}:</b> ${esc(typeof v === 'string' ? v : JSON.stringify(v))}</p>`).join('') : '';
+  $('#sdetail').innerHTML = `<div class="eyebrow">${esc(r.id)} · ${esc(r.type || 'place')}${r.layer === 'muslim_greek' ? ' · Greek-speaking Muslims' : ''}</div><h3>${esc(placeName(r))}</h3>
+    <dl>${names.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}
+    ${r.met ? `<dt>Metropolis</dt><dd>${esc(r.met)}${r.metc && r.metc !== 'certain' ? ` <span class="muted">(${esc(r.metc)})</span>` : ''}</dd>` : ''}
+    ${r.kaza ? `<dt>Kaza c. 1910</dt><dd>${esc(r.kaza)}${r.sancak ? ', ' + esc(r.sancak) : ''}</dd>` : ''}${r.outer ? `<dt>Outer layer</dt><dd>${esc(r.outer)}</dd>` : ''}
+    <dt>Language</dt><dd>${esc(r.lang || 'not known')}${r.langb ? `<br><span class="muted" style="font-size:14px">${esc(r.langb)}</span>` : ''}</dd>
+    <dt>Position</dt><dd>${esc(PREC[r.prec] || 'not located')}${r.locsrc ? `<br><span class="muted" style="font-size:14px">${esc(r.locsrc)}</span>` : ''}</dd>
+    ${r.fate ? `<dt>1914–1923</dt><dd>${esc(r.fate)}</dd>` : ''}${r.now && r.now !== 'unknown' ? `<dt>Today</dt><dd>${esc(r.now)}</dd>` : ''}
+    ${r.ev ? `<dt>Evidence</dt><dd>${esc(r.ev)}</dd>` : ''}${r.dup ? `<dt>Note</dt><dd>Possibly the same place as ${esc(r.dup)}, or one name used for two places</dd>` : ''}</dl>
+    ${pops || c11 || ch ? `<div class="ui muted" style="font-size:13px">Figures</div><ul>${pops}${c11}${ch}</ul>` : ''}
+    ${r.others ? `<p style="font-size:14.5px"><b>Others living there:</b> ${esc(typeof r.others === 'string' ? r.others : JSON.stringify(r.others))}</p>` : ''}
+    ${r.notes ? `<p style="font-size:14.5px">${esc(r.notes)}</p>` : ''}
+    ${tk ? `<div class="tkbox"><b>What the Turkish sources say</b>${tk}</div>` : ''}
+    ${r.src && r.src.length ? `<details open><summary class="ui" style="cursor:pointer;color:var(--accent)">Sources (${r.src.length})</summary><ul style="font-size:14px">${list(r.src)}</ul></details>` : ''}
+    ${gaps ? `<div class="gaps"><b>What we did not find</b><ul style="font-size:14.5px">${gaps}</ul></div>` : ''}`;
+  $('#sdetail').scrollTop = 0;
+  if (window.matchMedia('(max-width:980px)').matches && center) $('#sdetail').scrollIntoView({block: 'start'});
+}
+
+function showMonument(rec, center) {
+  SMAP.select(rec, center); const m = rec.__mon;
+  const same = MON.filter(o => o.lat === m.lat && o.lon === m.lon);
+  const row = o => `<div style="padding:8px 0;border-bottom:1px solid var(--rule)"><b>${esc(o.name)}</b> <span class="chip">${esc(o.kind || '')}</span><div style="font-size:14.5px">${o.place_medieval ? esc(o.place_medieval) + ' · ' : ''}${esc(o.place_turkish || '')}${o.date ? ' · ' + esc(o.date) : ''}${o.state_when_seen ? ' · ' + esc(o.state_when_seen) : ''}</div><div class="muted ui" style="font-size:12.5px">${esc(o.pages || '')}${o.gazetteer_id ? ' · village record ' + esc(o.gazetteer_id) : ''}</div></div>`;
+  $('#sdetail').innerHTML = `<div class="eyebrow">Monument · Bryer &amp; Winfield 1985</div><h3>${esc(m.place_turkish || m.name)}</h3>
+    <p class="muted" style="font-size:14px">${same.length > 1 ? same.length + ' monuments are recorded at this point. ' : ''}Positions are the point of the village or town they belong to, not the monument itself (${esc(m.loc_precision || '')}).</p>${same.map(row).join('')}`;
+  $('#sdetail').scrollTop = 0;
+}
+
+// ---------- peoples ----------
+let PE, PMAP; const LAYERS = [['Armenians', '--magenta'], ['Muslim communities', '--brown'], ['Language-religion crossings', '--green'], ['Other non-Muslims and foreigners', '--violet']];
+const LON = {}; LAYERS.forEach(l => LON[l[0]] = true);
+async function initPeoples() {
+  await loadBase(); PE = await getJSON('data/peoples.json');
+  const groups = {}; PE.forEach(p => { groups[p.g] = (groups[p.g] || 0) + 1; });
+  $('#pgroup').innerHTML += Object.entries(groups).sort((a, b) => b[1] - a[1]).map(([g, n]) => `<option value="${esc(g)}">${esc(g)} (${n})</option>`).join('');
+  PMAP = new MapView($('#pmap'), BASE, BASEIMG, {onSelect: r => showPeople(r, false)});
+  ['pq','pgroup'].forEach(id => $('#' + id).addEventListener('input', drawPeoples));
+  $('#plegend').onclick = e => { const b = e.target.closest('button'); if (!b) return; LON[b.dataset.l] = !LON[b.dataset.l]; drawPeoples(); };
+  $('#presults').onclick = e => { const b = e.target.closest('button'); if (b) showPeople(PE[+b.dataset.i], true); };
+  PE.forEach(p => { p._k = [p.n, p.today, p.id].map(norm); p._kg = norm(p.g); });
+  autocomplete($('#pq'), $('#pq-ac'), q => { const R = rank(PE.filter(p => LON[p.L]), q, p => p._k); return {items: R.list.map(p => ({rec: p,
+      label: hl(p.n, q) + (p.today && p.today !== p.n ? ` <span class="muted">· ${hl(p.today, q)}</span>` : ''), sub: p.g || ''})), more: Math.max(0, R.total - R.list.length)}; },
+    p => { $('#pq').value = p.n; drawPeoples(); showPeople(p, true); });
+  $('#pdetail').innerHTML = `<p class="muted">Select a point on the map, or a name in the list below.</p>`;
+  drawPeoples(); initDioceses();
+}
+function drawPeoples() {
+  const q = norm($('#pq').value.trim()), g = $('#pgroup').value; const L = [];
+  PE.forEach((p, i) => { if (!LON[p.L]) return; if (g && p.g !== g) return; if (q && !(p._k.some(k => k.includes(q)) || p._kg.includes(q))) return; p._i = i; L.push(p); });
+  const col = {}; LAYERS.forEach(l => col[l[0]] = css(l[1]));
+  const PRI = {'Muslim communities': 0, 'Language-religion crossings': 1, 'Armenians': 2, 'Other non-Muslims and foreigners': 3};
+  L.sort((a, b) => (PRI[a.L] ?? 0) - (PRI[b.L] ?? 0));
+  const P = L.filter(p => p.prec !== 'district').map(p => { const [x, y] = PMAP.proj(p.lon, p.lat); return {x, y, rec: p, col: col[p.L] || css('--grey'), hollow: p.prec === 'approx', r: p.kind === 'settlement' || p.kind === 'village' ? 2.4 : 3.6, label: p.n}; });
+  PMAP.setPoints(P); PMAP.resize();
+  $('#pcount').textContent = `${fmt(L.length)} rows · ${fmt(P.length)} on the map`;
+  $('#plegend').innerHTML = LAYERS.map(([l, v]) => `<button data-l="${esc(l)}" aria-pressed="${LON[l]}"><i style="background:var(${v});width:11px;height:11px;border-radius:50%;display:inline-block"></i>${esc(l)}</button>`).join('');
+  $('#presults').innerHTML = L.slice(0, 300).map(p => `<button data-i="${p._i}"><span>${esc(p.n)}</span><small>${esc(p.g || '')}</small></button>`).join('') + (L.length > 300 ? `<p class="status" style="padding:6px">First 300 of ${fmt(L.length)}; narrow the search.</p>` : '');
+}
+function showPeople(p, center) {
+  PMAP.select(p, center);
+  const pops = (p.pop || []).map(x => `<li>${esc(fmt(x.figure))} ${esc(x.unit || '')}${x.year ? ', ' + esc(x.year) : ''}${x.source ? ` <span class="muted">(${esc(x.source)})</span>` : ''}</li>`).join('');
+  $('#pdetail').innerHTML = `<div class="eyebrow">${esc(p.id)} · ${esc(p.L)}</div><h3>${esc(p.n)}</h3>
+    <dl><dt>Group</dt><dd>${esc(p.g)}</dd>${p.lang ? `<dt>Language</dt><dd>${esc(p.lang)}</dd>` : ''}${p.rel ? `<dt>Religion</dt><dd>${esc(p.rel)}</dd>` : ''}
+    ${p.per ? `<dt>Period</dt><dd>${esc(p.per)}</dd>` : ''}${p.today ? `<dt>Today</dt><dd>${esc(p.today)}${p.prov ? ', ' + esc(p.prov) : ''}</dd>` : ''}<dt>Position</dt><dd>${esc(PREC[p.prec] || p.prec || 'not located')}</dd>
+    ${p.basis && p.basis !== 'main' ? `<dt>Sources</dt><dd>${esc(BASIS[p.basis] || p.basis)}</dd>` : ''}${p.conf ? `<dt>Evidence</dt><dd>${esc(EVID[p.conf] || p.conf)}</dd>` : ''}</dl>
+    ${pops ? `<div class="ui muted" style="font-size:13px">Figures</div><ul>${pops}</ul>` : ''}${p.fate ? `<p><b>1914–1923:</b> ${esc(p.fate)}</p>` : ''}
+    ${p.notes ? `<p style="font-size:14.5px">${esc(p.notes)}</p>` : ''}${p.src && p.src.length ? `<div class="ui muted" style="font-size:13px">Sources</div><ul style="font-size:14px">${list(p.src)}</ul>` : ''}`;
+  $('#pdetail').scrollTop = 0;
+  if (window.matchMedia('(max-width:980px)').matches && center) $('#pdetail').scrollIntoView({block: 'start'});
+}
+async function initDioceses() {
+  const D = await getJSON('data/dioceses.json');
+  $('#diotable').innerHTML = `<thead><tr><th>Diocese</th><th>Seat</th><th>Prelate in 1915</th><th>Fate</th><th>Patriarchate 1913</th></tr></thead><tbody>${D.map(d => `<tr><td><b>${esc(d.diocese)}</b>${d.also_called ? `<br><span class="muted" style="font-size:13.5px">${esc(d.also_called)}</span>` : ''}</td><td style="font-size:14.5px">${esc(d.seat)}</td><td style="font-size:14.5px">${esc(d.prelate_1915 || '—')}${d.prelate_sources ? `<br><span class="muted" style="font-size:13px">${esc(d.prelate_sources)}</span>` : ''}</td><td style="font-size:14.5px">${esc(d.prelate_fate || '—')}</td><td class="n" style="font-size:14.5px">${d.patr_1913_persons ? esc(d.patr_1913_persons) : '—'}${d.patr_1913_label ? `<br><span class="muted" style="font-size:12.5px">${esc(d.patr_1913_label)}</span>` : ''}</td></tr>`).join('')}</tbody>`;
+}
+
+// ---------- maps ----------
+const MAPS = [['E2_1_ten_thousand', 'The march of the Ten Thousand, 401–400 BC', 'Cunaxa to Byzantium after Xenophon. The inland route is a modern conjecture; Theches is placed at Mitford\'s site, the leading one of about twenty proposals.'],
+  ['E2_2_mithridates', 'The Pontic kingdom at its height, c. 107 BC', 'Mithridates VI\'s ring round the eastern and northern Euxine, with the extent of 88 BC in outline. Every border is schematic.'],
+  ['E2_3_trebizond', 'The Empire of Trebizond, 1204–1461', 'Four frontier frames, the dates places were lost, and Chaldia as a dependent lordship c. 1400.'],
+  ['E2_4_language_1911', 'Greek and Turkish speech among the Orthodox of Amaseia, 1911', 'One of the six metropolises, the only one with a village-by-village language count. As printed, 34% of its Orthodox spoke Greek; but a long run of ditto marks, never restated, makes 34,119 people in the interior Turkish-speaking, and without those rows the Greek share is about 47%. Those villages are drawn hollow.'],
+  ['E2_5_bafra_1921', 'The death marches from Bafra, 1921', 'Three convoys of September 1921 and the figures the sources give on the road, each labelled by its origin.']];
+function initMaps() { $('#mapsgrid').innerHTML = MAPS.map(([f, t, c]) => `<figure><img src="maps/${f}.jpg" alt="${esc(t)}" loading="lazy" width="2000" height="1125"><figcaption><b>${esc(t)}.</b> ${esc(c)}</figcaption></figure>`).join(''); }
+
+// ---------- sources ----------
+async function initSources() {
+  const S = await getJSON('data/sources.json');
+  const origins = [...new Set(S.map(s => s.origin).filter(Boolean))].sort();
+  $('#srorigin').innerHTML += origins.map(o => `<option>${esc(o)}</option>`).join('');
+  const draw = () => { const q = $('#srq').value.toLowerCase(), o = $('#srorigin').value;
+    const L = S.filter(s => (!o || s.origin === o) && (!q || (s.work + ' ' + s.base_or_note).toLowerCase().includes(q))).sort((a, b) => (+b.citations || 0) - (+a.citations || 0));
+    $('#srcount').textContent = `${L.length} works`;
+    $('#srctable').innerHTML = `<thead><tr><th>Work</th><th>Origin</th><th>Type</th><th class="n">Citations</th><th>Used in</th></tr></thead><tbody>${L.map(s => `<tr><td>${esc(s.work)}${s.base_or_note ? `<br><span class="muted" style="font-size:13.5px">${esc(s.base_or_note)}</span>` : ''}</td><td style="font-size:14.5px">${esc(s.origin)}</td><td style="font-size:14px">${esc(s.type)}</td><td class="n">${esc(s.citations)}</td><td style="font-size:13.5px">${esc(s.used_in)}</td></tr>`).join('')}</tbody>`; };
+  $('#srq').oninput = draw; $('#srorigin').oninput = draw; draw();
+}
+
+// ---------- gaps ----------
+async function initGaps() {
+  const ov = OV || await getJSON('data/overview.json');
+  $('#gapsmd').innerHTML = md(ov.gaps_md.replace(/^# .*\n+/, '')); wrapTables($('#gapsmd'));
+}
+
+// ---------- data ----------
+const FILES = [['gazetteer.csv', 'Villages', 'Every Orthodox place and Greek-speaking Muslim village, with names, positions, language, figures, fate, sources and gaps.'],
+  ['monuments_bryer_winfield_1985.csv', 'Medieval monuments', 'The churches, monasteries, castles and other monuments catalogued by Bryer & Winfield (1985), with their pages and the village each belongs to.'],
+  ['chapter_events.csv', 'Chapter events', 'The dated events of the twelve chapters, with their sources and places.'],
+  ['census_1911_amaseia_table6.csv', 'The 1911 census of Amaseia', 'Our transcription of Kitromilides & Alexandris 1984, Table VI: 334 rows, inhabitants and language.'],
+  ['armenian_dioceses_1915.csv', 'Armenian dioceses, 1913–1915', 'Seats, territories, the prelates of 1915 and their fate, population by source and origin.'],
+  ['source_register.csv', 'Source register', 'The works cited, their origin labels and where they are used.']];
+async function initData() {
+  $('#dl').innerHTML = FILES.map(([f, t, d]) => `<div class="item"><b>${esc(t)}</b><span style="font-size:15px">${esc(d)}</span><span class="status">${esc(f)}</span><button class="btn" data-f="${esc(f)}" disabled>Save CSV</button></div>`).join('');
+  const dls = null;   // ordinary download links
+  if (!dls) { document.querySelectorAll('#dl .btn').forEach(b => { const a = document.createElement('a'); a.className = 'btn'; a.href = 'downloads/' + b.dataset.f; a.setAttribute('download', b.dataset.f); a.textContent = 'Download CSV'; b.replaceWith(a); }); $('#dlstatus').textContent = ''; return; }
+  if (!dls) { $('#dlstatus').textContent = 'Saving files is not available in this view.'; return; }
+  document.querySelectorAll('#dl .btn').forEach(b => b.disabled = false);
+  $('#dl').onclick = async e => { const b = e.target.closest('.btn'); if (!b || b.disabled) return; b.disabled = true; $('#dlstatus').textContent = 'Preparing ' + b.dataset.f + '…';
+    try { const r = await fetch('downloads/' + b.dataset.f); const blob = await r.blob(); await dls.save({filename: b.dataset.f, data: blob}); $('#dlstatus').textContent = 'Saved ' + b.dataset.f + '.'; }
+    catch (err) { $('#dlstatus').textContent = err && err.code === 'declined' ? 'Save cancelled.' : 'Could not save ' + b.dataset.f + (err && err.code ? ' (' + err.code + ')' : '') + '.'; }
+    b.disabled = false; };
+}
+
+async function initAbout() {
+  loadPH().then(d => { const P = d.pages || {}, names = {overview: 'Overview', settlements: 'Villages', peoples: 'Peoples'};
+    const L = Object.keys(P).flatMap(k => P[k].map(p => [k, p])); if (!L.length) return;
+    $('#imgcredits').innerHTML = L.map(([k, p]) => `<li><span class="muted ui" style="font-size:13px">${names[k] || 'Chapter ' + (+k.slice(2))}:</span> ${esc(p.short || p.caption)}. ${phCredit(p)}</li>`).join('');
+    $('#imgcredits-box').hidden = false; });
+}
+document.addEventListener('click', e => { const a = e.target.closest('a[data-goto]'); if (a) { e.preventDefault(); show(a.dataset.goto, true); } });
+const INIT = {about: initAbout, overview: initOverview, chapters: initChapters, timeline: initTimeline, settlements: initSettlements, peoples: initPeoples, maps: initMaps, sources: initSources, gaps: initGaps, data: initData};
+const wrapInit = f => () => f().catch(err => { console.error(err); const s = document.querySelector('main > section:not([hidden])'); if (s) s.insertAdjacentHTML('beforeend', `<p class="notice">This section could not load its data (${esc(err.message)}). Reload the page to try again.</p>`); });
+Object.keys(INIT).forEach(k => { const f = INIT[k]; INIT[k] = wrapInit(async () => f()); });
+let start = location.hash.slice(1);
+if (!start) { try { start = localStorage.getItem('pontus-tab') || 'overview'; } catch (e) { start = 'overview'; } }
+if (start.startsWith('ch') && /^ch\d+$/.test(start)) { show('chapters'); openChapter(+start.slice(2)); } else show(start);
+if (!shown.overview) getJSON('data/overview.json').then(o => OV = o).catch(() => {});
+})();
+</script>
+
+</body>
+</html>

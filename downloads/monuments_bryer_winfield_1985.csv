@@ -1,0 +1,299 @@
+id,name,kind,place_medieval,place_turkish,date,state_when_seen,pages,gazetteer_id,lat,lon,loc_precision,notes
+BW-I-x01,"Banded masonry feature (""Genoese hamam"") near Fakas",building,Karambis (?),Fakas,medieval,standing (fragment),"Bryer & Winfield 1985, pp. 67-68",,,,,
+BW-II-002,Walls of Sinope,fortification,Sinope,Sinop,,standing (in part),"Bryer & Winfield 1985, pp. 76-79",,42.0245,35.1513,settlement,
+BW-II-003,"The ""Palace"" (Balat)",palace,Sinope,Sinop,,ruins (unexcavated),"Bryer & Winfield 1985, pp. 79-82",,42.0245,35.1513,settlement,
+BW-II-004,"""Balat Kilise""",church,Sinope,Sinop,dedication inscription 1640; earlier paintings,standing (paintings partly lost),"Bryer & Winfield 1985, pp. 82-83",,42.0245,35.1513,settlement,
+BW-III-x01,Walls and building below Sivri Tepe (Zalekon-Leontopolis),site,Zalekon-Leontopolis,Alaçam (Sivri Tepe),bricks match early medieval sites further west (site of Zalekon-Leontopolis),walls standing 1-3 m,"Bryer & Winfield 1985, pp. 90-91",,41.60793,35.5976,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-III-x02,Asar Kale (reported),castle,,"Asar Kale, west bank of the Halys",,reported (not visited),"Bryer & Winfield 1985, p. 91",,,,,
+BW-III-x03,Kostantinuşağı castle (reported),castle,,"Kostantinuşağı, east bank of the Halys",,reported (not visited),"Bryer & Winfield 1985, p. 91",,,,,
+BW-IV-x01,Acropolis of Amisos (Kara or Eski Samsun),fortification,Amisos,Kara Samsun,,,"Bryer & Winfield 1985, pp. 92-94",,41.285,36.3375,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-IV-x02,"Pazar Camii (13th c.), site of Aminsos",mosque,Aminsos,Samsun,,,"Bryer & Winfield 1985, pp. 94-95",,41.285,36.3375,settlement,
+BW-V-x01,"Limnia (proposed stronghold site, Iris delta)",site,Limnia,Yeşilırmak delta,,,"Bryer & Winfield 1985, pp. 96-99",,,,,
+BW-V-x02,Kündür Köprü (Late medieval bridge over the Lykos),bridge,Kinte (?),Kündür Köprü,Late medieval bridge on Roman piers (after Grégoire),,"Bryer & Winfield 1985, pp. 99-100",,40.31919,37.49303,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-VI-001,Oinaion Castle,castle,Oinaion,Ünye,,standing (in part; sea wall 105 m),"Bryer & Winfield 1985, pp. 102-103",G5-093,41.140493,37.28851,settlement,
+BW-VI-002,"Church of the Theotokos, Oinaion",church,Oinaion,Ünye,noted 1658,no trace found,"Bryer & Winfield 1985, p. 103",G5-093,41.140493,37.28851,settlement,
+BW-VI-003,Church of St. Nicholas (Ainikola islet),church,Oinaion,"Ainikola islet, Ünye",restored 1629 (Ritter),ruined (foundations and cave),"Bryer & Winfield 1985, p. 103",,41.140493,37.28851,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-VI-004,Castle west of Çaleoğlu Kale (reported),castle,,above the Zindan Dere,,reported (not visited),"Bryer & Winfield 1985, p. 103",,,,,
+BW-VI-005,Ginca (Gencağa) Kale (reported),castle,,Ginca Kale,,reported (not visited),"Bryer & Winfield 1985, p. 103",,,,,
+BW-VI-006,Çaleoğlu Kale,castle,Caena (?),"Kaleköy, near Ünye",,,"Bryer & Winfield 1985, pp. 103-105",,,,,
+BW-VII-x01,Medieval masonry by the Erbaa road (candidate site of St. Gregory Thaumatourgos),church,Neokaisareia,Niksar,,,"Bryer & Winfield 1985, pp. 108-109",,40.591667,36.951667,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-VII-x02,Fortifications of Neokaisareia (Niksar castle),castle,Neokaisareia,Niksar,,,"Bryer & Winfield 1985, pp. 109-110",G5-107,40.591667,36.951667,settlement,
+BW-VIII-001,Bucera Kale,fort,,"near Bağköy, 7 km east of Fatsa",18th c. (fortified farmstead),standing (walls to 7 m),"Bryer & Winfield 1985, p. 112",,,,,
+BW-VIII-002,Evkaf Köyü Kale,castle,,Evkaf Köyü,,standing (ruins),"Bryer & Winfield 1985, pp. 112-113",,41.0278,37.48096,settlement,
+BW-VIII-003,Monastery (?) of St. Barbara,monastery,Phadisane,Fatsa,13th-c. Trapezuntine apse style,traces only,"Bryer & Winfield 1985, p. 113",,,,,
+BW-VIII-004,"Church of St. Constantine, Polemonion",church,Polemonion,Bolaman,,ruined (known from 19th-c. descriptions),"Bryer & Winfield 1985, pp. 113-114",,,,,
+BW-VIII-006,Boloman Kale,castle,Polemonion,Bolaman,,standing (with 19th-c. selamlık),"Bryer & Winfield 1985, pp. 114-115",,41.0361,37.5928,settlement,
+BW-VIII-007,Cave west of Boloman Kale,cave church,,Çaltışlar Çayı delta,,,"Bryer & Winfield 1985, p. 115",,,,,
+BW-VIII-008,"Caves (""Christian churches"")",cave church,,near Bolaman,,,"Bryer & Winfield 1985, p. 115",,,,,
+BW-VIII-009,Castle south of the Boloman gendarmerie (reported),castle,,Bolaman,,reported (not visited),"Bryer & Winfield 1985, p. 115",,,,,
+BW-IX-x01,Gölköy Kale,castle,Sauronisena (?),Gölköy,,standing (walls up to 10 m),"Bryer & Winfield 1985, pp. 116-117",,,,,
+BW-X-x01,"Yukarı Kale, Koyulhisar",castle,Anniaca (?),Koyulhisar,,ruined (destroyed late 18th c.),"Bryer & Winfield 1985, p. 118",,40.3025,37.8311,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XI-001,Church and site on Cape Jason,church,Cape Jason,Yasun Burunu,medieval church replaced 1868,medieval church replaced by a church of 1868,"Bryer & Winfield 1985, pp. 121-122",,,,,
+BW-XI-002,Bayadı Köyü,site,,Bayadı Köyü,,,"Bryer & Winfield 1985, p. 122",,41.11845,37.67812,settlement,
+BW-XI-003,Kiliseyanı,church,,Kiliseyanı (Kavrayalısı),,ruined,"Bryer & Winfield 1985, p. 122",,,,,
+BW-XI-004,Hoynat Kale (Island of the Cilicians),castle,Island of the Cilicians,Hoynat Kale,,ruined,"Bryer & Winfield 1985, pp. 122-123",,41.1174,37.72878,settlement,
+BW-XI-005,Boon castle,castle,Boon,Vona,,not examined by Bryer & Winfield,"Bryer & Winfield 1985, p. 123",G5-041,41.1089,37.7842,settlement (gazetteer point approx),
+BW-XI-006,"Bozuk Kale (castle of St. Theodore?), Ordu",castle,,"Bozuk Kale, 4 km north of Ordu",,,"Bryer & Winfield 1985, p. 123",,40.97782,37.89047,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XII-001,Rock-cut feature shown to D. C. W. in 1958,site,,,,,"Bryer & Winfield 1985, p. 125",,,,,
+BW-XII-002,"Churches of Çambaşı (19th c., none surviving)",church,,Çambaşı,19th c.,none survive,"Bryer & Winfield 1985, p. 125",,40.62724,37.96355,settlement,
+BW-XII-003,Dikmen Tepe (vaulted structure; monastery of St. Basil?),monastery,Kenchrina (?),Dikmen Tepe,,,"Bryer & Winfield 1985, p. 125",,,,,
+BW-XII-004,Chapel of St. Basil (Ayvasil) and church of St. George (Batlama),church,,Ayvasil Burunu; Batlama (Çıtlakkale),,no trace found,"Bryer & Winfield 1985, p. 125",G4-N003,40.9424,38.2861,settlement,
+BW-XII-005,Castle at Şıhlı Köyü (reported),castle,,Şıhlı Köyü,,reported (not visited),"Bryer & Winfield 1985, p. 125",,40.92227,38.10876,settlement,
+BW-XIII-001,Giresun Kale,castle,Kerasous,Giresun,,standing (in part),"Bryer & Winfield 1985, pp. 130-132",G4-001,40.917,38.3874,settlement,
+BW-XIII-002,"Mosaic floor, Giresun",site,Kerasous,Giresun,5th or 6th c. (restoration inscription),,"Bryer & Winfield 1985, p. 132",G4-001,40.917,38.3874,settlement,
+BW-XIII-003,Rock crowned with medieval masonry west of the old town,fort,Kerasous,Giresun,,removed for the new coast road,"Bryer & Winfield 1985, p. 132",G4-001,40.917,38.3874,settlement,
+BW-XIII-004,Gedik Kaya Kilise,church,Kerasous,"Gedik Kaya, Giresun",,,"Bryer & Winfield 1985, pp. 132-133",,40.90692,38.41378,settlement,
+BW-XIII-005,Gedik Kaya Kalesi,castle,Kerasous,"Gedik Kaya, Giresun",,foundations of the chapel only,"Bryer & Winfield 1985, p. 133",,40.90692,38.41378,settlement,
+BW-XIII-006,Monastery on Giresun (Puga) Adası (island of Ares),monastery,Ares island,Giresun Adası,tower perhaps after 1362 (Alexios III),,"Bryer & Winfield 1985, pp. 133-134",,40.917,38.3874,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XIV-001,Armelit Kale,castle,,"Armelit, Cape Zephyrion",,destroyed by treasure seekers,"Bryer & Winfield 1985, p. 136",,,,,
+BW-XIV-002,Castle of Andoz (Holy Antony),castle,Holy Antony,Andoz Kalesi,,standing (ruins),"Bryer & Winfield 1985, p. 136",,40.93949,38.69219,settlement,
+BW-XIV-003,Church of the Theotokos on Cape Zephyrion (portulan),church,Cape Zephyrion,,,known only from a portulan,"Bryer & Winfield 1985, pp. 136-137",,,,,
+BW-XIV-004,Kalecik-Hisarüstü Castle,castle,,Kalecik-Hisarüstü,,ruined,"Bryer & Winfield 1985, p. 137",,40.9602,38.6169,settlement,
+BW-XV-001,Church of the Panagia on Kilise Burunu,church,Tripolis,Tirebolu (Kilise Burunu),,remodeled in the 19th c.,"Bryer & Winfield 1985, p. 141",G4-101,41.0069,38.8139,settlement (gazetteer point approx),
+BW-XV-002,Eastern Castle of Tripolis,castle,Tripolis,Tirebolu,,standing (lighthouse within),"Bryer & Winfield 1985, pp. 141-142",G4-100,41.00735,38.81452,settlement,
+BW-XV-003,Church of the Panagia in the Eastern Castle of Tripolis,church,Tripolis,Tirebolu,,known from Hommaire de Hell's notes,"Bryer & Winfield 1985, pp. 142-143",G4-100,41.00735,38.81452,settlement,
+BW-XV-004,Petroma castle (Bedrema Kale),castle,Petroma,Bedrema (Örenkaya),,standing (ruins),"Bryer & Winfield 1985, pp. 143-144",G4-N021,40.9618,38.8698,settlement,
+BW-XV-005,Suma Kale (Kotzauta?),castle,Kotzauta (?),"Suma Kale, above Kürtün",,standing (ruins),"Bryer & Winfield 1985, p. 144",,40.702,39.0866,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XVI-001,Mavrokastron-Karahisar of Koloneia,castle,Koloneia (Mavrokastron),Şebinkarahisar,,standing (repaired and rebuilt many times),"Bryer & Winfield 1985, p. 149",G4-178,40.2883,38.4236,settlement,
+BW-XVII-001,Goolak Kaleh / Kalak Kilise (Kiseyani),church,,Kalak Kilise,,,"Bryer & Winfield 1985, p. 156",,,,,
+BW-XVII-002,Kara Burunu castle (reported),castle,,Kara Burunu,,,"Bryer & Winfield 1985, p. 156",,,,,
+BW-XVII-003,Koralla castle,castle,Koralla,Görele Burunu,,standing (ruins); fell in 1811,"Bryer & Winfield 1985, pp. 156-157",,41.07704,39.16325,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XVII-004,Onu Kale (Libiopolis?),castle,Libiopolis (?),"Onu Kale, Çeşmeönü",,,"Bryer & Winfield 1985, pp. 157-158",,,,,
+BW-XVII-005,Gelida Kale,castle,Kalita (?),"Gelida Kale, Yalıköy",,,"Bryer & Winfield 1985, p. 158",,41.06569,39.33856,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XVII-006,Holy Cape Castle,castle,Holy Cape,Yoros Burunu,,ruined (only west wall survives),"Bryer & Winfield 1985, p. 158",,41.09818,39.42815,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XVII-007,Kordyle castle (Akçakale),castle,Kordyle,Akçakale,"stonework akin to Lower City walls of Trebizond (Alexios II, 1297-1330)",standing (in part; walls to 9-10 m),"Bryer & Winfield 1985, p. 158",,41.08089,39.50175,settlement,
+BW-XVII-008,Church at Fol Maden,church,,"Fol Maden, now Kalınçam",careful walling may be earlier; plaster layers suggest 13th c. or later,ruined,"Bryer & Winfield 1985, pp. 158-159",,40.7975,39.2768,settlement,
+BW-XVIII-001,Platana fortress,castle,Platana,Akçaabat,,,"Bryer & Winfield 1985, p. 163",G2-113,41.0212,39.5715,settlement,
+BW-XVIII-002,"St. Michael, Platana",church,Platana,Akçaabat,,,"Bryer & Winfield 1985, p. 163",G2-113,41.0212,39.5715,settlement,
+BW-XVIII-003,"Later church west of St. Michael, Platana",church,Platana,Akçaabat,,destroyed,"Bryer & Winfield 1985, p. 163",G2-113,41.0212,39.5715,settlement,
+BW-XVIII-004,"Medieval church in Orta Mahalle, Platana",church,Platana,Akçaabat (Orta Mahalle),,,"Bryer & Winfield 1985, p. 163",G2-113,41.0212,39.5715,settlement,
+BW-XVIII-005,Medieval church at Visera,church,Visera,Visera (Işıklar),restored May 1846,all but destroyed,"Bryer & Winfield 1985, p. 163",G2-124,40.89339,39.4598,settlement,
+BW-XVIII-006,Church at Demirci Köyü (Büyük Fiz),church,,Demirci Köyü (Büyük Fiz),19th c.,,"Bryer & Winfield 1985, p. 163",G2-122,40.98315,39.57665,settlement,
+BW-XVIII-007,Ahanda (site; Achantos?),site,Achantos (?),Ahanda,,,"Bryer & Winfield 1985, p. 163",,41.02091,39.52801,settlement,
+BW-XVIII-009,Mimeras castle (Sivri Kale),castle,Mimera,Erikli (Sivri Kale),,standing (ruins),"Bryer & Winfield 1985, pp. 163-164",,40.91223,39.49605,settlement,
+BW-XVIII-010,Akpınar (Özyisa Kalesi),castle,,Akpınar,,,"Bryer & Winfield 1985, p. 164",,40.9288,39.48873,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XVIII-011,Hıdır Nebi castle (Metinkaya Kale),castle,Metin Kale,"Hıdır Nebi, Karadağı",,,"Bryer & Winfield 1985, p. 164",,40.95769,39.47294,settlement,
+BW-XIX-001,Uluşiran site (Cheriana?),site,Cheriana (?),Uluşiran,,church gone (field called Kilise Arazi),"Bryer & Winfield 1985, pp. 173-174",G3-158,40.22734,39.11029,settlement,
+BW-XIX-002,Mumya Kale,castle,Cheriana (?),Mumya Kale,,,"Bryer & Winfield 1985, p. 174",,,,,
+BW-XIX-003,Tarsos (fortified church),church,Tarsos,"Gülçeker, formerly Aşağı Tersun",,,"Bryer & Winfield 1985, pp. 174-175",G3-161,40.1921,39.2471,settlement,
+BW-XIX-004,"Basilica at Saraycık, Aşağı Akçalı",church,,"Aşağı Akçalı (formerly Aşağı Hayduruk), Saraycık","early, perhaps 6th c.",foundations under plough (two wall sections),"Bryer & Winfield 1985, pp. 175-176",,,,,
+BW-XIX-005,Kelora: rock-cut monastery and forts (Kalur Kale),monastery,Kelora (Leukopetra?),"Kalur, now Çakırkaya",rock-cut monastery of 1848 (and perhaps earlier),forts razed; rock-cut monastery of 1848,"Bryer & Winfield 1985, p. 176",G3-159,40.1153,39.0791,settlement,The monastery founded here by Bishop Jeremias Georgiades in 1848 (p. 170) is the Monastery of Akritas (Lefkopetra) of the village list; Leukopetra = probably Kalur Kale.
+BW-XIX-006,Çirmiş: ruined building and former church (Kilise Boynuzu),church,,Çirmiş,,building ruined in the 1960s; church stood until the 1950s,"Bryer & Winfield 1985, pp. 176-177",G3-176,,,,
+BW-XIX-008,Avarak site,fort,Arauraka (?),Avarak,,,"Bryer & Winfield 1985, p. 177",,40.1502,38.6781,settlement,
+BW-XX-001,The Classical Walls (Upper City),fortification,Trebizond,Trabzon,Roman masonry (1st-3rd c. A.D.) with later work,standing (in part),"Bryer & Winfield 1985, pp. 186-187",G2-001,41.0024,39.7189,city,
+BW-XX-002,The Lower City (walls),fortification,Trebizond,Trabzon,built by Alexios II (1297-1330) (Bryer & Winfield p. 158),standing (in part),"Bryer & Winfield 1985, pp. 187-190",G2-001,41.0024,39.7189,city,
+BW-XX-003,The Middle City (walls and bridges),fortification,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 190-191",G2-001,41.0024,39.7189,city,
+BW-XX-004,The Citadel,fortification,Trebizond,Trabzon,,standing (in part); much of the southern defenses destroyed after 1918,"Bryer & Winfield 1985, pp. 191-195",G2-001,41.0024,39.7189,city,
+BW-XX-005,Arsenals,site,Trebizond,Trabzon,before 1223 (references 1223-1349),no remains identified,"Bryer & Winfield 1985, pp. 195-196",G2-001,41.0024,39.7189,city,
+BW-XX-006,Baths,bath,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 196",G2-001,41.0024,39.7189,city,
+BW-XX-007,The Bedesten,market hall,Trebizond,Trabzon,1461-1512 (argued); Bedesten first named ca. 1512,,"Bryer & Winfield 1985, p. 196",G2-001,41.0024,39.7189,city,
+BW-XX-008,Bridges,bridge,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 196-197",G2-001,41.0024,39.7189,city,
+BW-XX-010,Fountains,fountain,Trebizond,Trabzon,"pre-1461 fountain noted under No. 45; inscribed fountains 1509, 1506, 1713",,"Bryer & Winfield 1985, p. 197",G2-001,41.0024,39.7189,city,
+BW-XX-011,Hatuniye Camii (mosque and türbe of Gülbahar Hatun),mosque,Trebizond,Trabzon,,standing,"Bryer & Winfield 1985, p. 197",G2-001,41.0024,39.7189,city,
+BW-XX-014,Leontokastron,castle,Trebizond,Trabzon,,largely destroyed,"Bryer & Winfield 1985, pp. 197-198",G2-001,41.0024,39.7189,city,
+BW-XX-015,Loggia,building,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 198",G2-001,41.0024,39.7189,city,
+BW-XX-016,"""Magazeno Sancti Eugenii""",warehouse,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 198",G2-001,41.0024,39.7189,city,
+BW-XX-025,Tombs,tomb,Trebizond,Trabzon,13th-15th c. imperial tombs,mostly destroyed (tomb of Alexios IV destroyed after 1918),"Bryer & Winfield 1985, p. 201",G2-001,41.0024,39.7189,city,
+BW-XX-026,Tzykanisterion,site,Trebizond,Trabzon,,site not identified (proposed at Kabak Meydan),"Bryer & Winfield 1985, pp. 201-202",G2-001,41.0024,39.7189,city,
+BW-XX-027,Vakıf Han,han,Trebizond,Trabzon,17th or 18th c. (Ballance; preferred to Succi's ca. 1200),standing,"Bryer & Winfield 1985, p. 202",G2-001,41.0024,39.7189,city,
+BW-XX-028,Venetian Castle,castle,Trebizond,Trabzon,"1319, 1364, 1367 (successive Venetian grants)",,"Bryer & Winfield 1985, pp. 202-203",G2-001,41.0024,39.7189,city,
+BW-XX-029,Warehouses and Hans,han,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 203-204",G2-001,41.0024,39.7189,city,
+BW-XX-030,Church A,church,Trebizond,Trabzon,,destroyed (after 1929),"Bryer & Winfield 1985, p. 204",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 69, 70, 71, 105?"
+BW-XX-031,Church B,church,Trebizond,Trabzon,12th c. or earlier (Talbot Rice),destroyed (before 1958),"Bryer & Winfield 1985, p. 204",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 97, 106, 119?"
+BW-XX-032,Church C,church,Trebizond,Trabzon,,destroyed,"Bryer & Winfield 1985, pp. 204-205",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 80, 84, 87?"
+BW-XX-033,Chapel D,church,Trebizond,Trabzon,"Comnenian, with later alterations (Ballance)",believed demolished,"Bryer & Winfield 1985, p. 205",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 116?
+BW-XX-034,Church E,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 205",G2-001,41.0024,39.7189,city,
+BW-XX-035,Church F,church,Trebizond,Trabzon,1838,believed demolished,"Bryer & Winfield 1985, p. 205",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 97, 106, 119?"
+BW-XX-036,Church G,church,Trebizond,Trabzon,19th c.,believed demolished,"Bryer & Winfield 1985, p. 205",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 97, 106, 119?"
+BW-XX-037,Church J,church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, p. 205",G2-001,41.0024,39.7189,city,
+BW-XX-038,Church K (Roman Catholic),church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, p. 205",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 28?
+BW-XX-039,Church L,church,Trebizond,Trabzon,medieval (pulverized brick or tile in the mortar),ruined,"Bryer & Winfield 1985, pp. 205-206",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 96 No. 96 (St. Kerykos) refers to this chapel.
+BW-XX-040,Chapel M,church,Trebizond,Trabzon,,fragments only,"Bryer & Winfield 1985, p. 206",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 75?
+BW-XX-041,Christ,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 206",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 55?
+BW-XX-042,Çifte Hamamı,church,Trebizond,Trabzon,first mentioned 1520-23,,"Bryer & Winfield 1985, pp. 206-207",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 75
+BW-XX-043,Dormition (Koimesis),church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, p. 207",G2-001,41.0024,39.7189,city,
+BW-XX-044,Dormition (Koimesis),church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, p. 207",G2-001,41.0024,39.7189,city,
+BW-XX-045,Dragon's Fountain,holy fountain,Trebizond,Trabzon,cult attested in the 14th c.,,"Bryer & Winfield 1985, p. 207",G2-001,41.0024,39.7189,city,
+BW-XX-046,Mother of God (Astuatsatsin) (Armenian),church,Trebizond,Trabzon,inscriptions of 1414 and later,survived until 1915; no trace found,"Bryer & Winfield 1985, pp. 207-208",G2-001,41.0024,39.7189,city,
+BW-XX-047,Hypapante (Presentation),church,Trebizond,Trabzon,built before 1819,no trace found,"Bryer & Winfield 1985, p. 208",G2-001,41.0024,39.7189,city,
+BW-XX-048,Kaymaklı Monastery (Armenian monastery of the All Savior),monastery,Trebizond,Trabzon,"chapel inscription best read as 1421 (alternatives 1424, 1622)",standing (main church; Milk Fountain destroyed),"Bryer & Winfield 1985, pp. 208-211",G2-001,41.0024,39.7189,city,
+BW-XX-049,Manglavita,monastery,Trebizond,Trabzon,painting phases 9th-10th c.(?) to early 15th c.,cave chapel partly destroyed,"Bryer & Winfield 1985, pp. 211-217 (end on missing pp. 214-16)",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = No. 118? Possibly the Monastery of the Stylos (No. 118), after Chrysanthos. Its date and state are not given here."
+BW-XX-050,Metamorphosis (Transfiguration),church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 214-16",G2-001,41.0024,39.7189,city,Its date and state are not given here.
+BW-XX-051,Metamorphosis (Transfiguration),church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 214-16",G2-001,41.0024,39.7189,city,Its date and state are not given here.
+BW-XX-053,Nakip Camii,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 214-16",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 59? Its date and state are not given here.
+BW-XX-054,Nativity of God (Armenian),church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 214-16",G2-001,41.0024,39.7189,city,Its date and state are not given here.
+BW-XX-055,Palace Chapel,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 214-16",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 41? Its date and state are not given here.
+BW-XX-056,Monastery of the Pharos,monastery,Trebizond,Trabzon,"ca. 1427 (lighthouse tower, by comparison with Hagia Sophia tower)",,"Bryer & Winfield 1985, pp. 214-17",G2-001,41.0024,39.7189,city,Its date and state are not given here.
+BW-XX-057,St. Akindynos (Kindinar Camii),church,Trebizond,Trabzon,naos not later than 12th c. (D. C. W.),standing (Kindinar Camii),"Bryer & Winfield 1985, p. 217",G2-001,41.0024,39.7189,city,
+BW-XX-058,St. Anastasia,church,Trebizond,Trabzon,19th c.,presumably destroyed,"Bryer & Winfield 1985, p. 217",G2-001,41.0024,39.7189,city,
+BW-XX-059,St. Andrew,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 217-218",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 53?
+BW-XX-060,St. Andrew,church,Trebizond,Trabzon,,destroyed (seafront boulevard),"Bryer & Winfield 1985, p. 218",G2-001,41.0024,39.7189,city,
+BW-XX-061,St. Anne (Küçük Ayvasil),church,Trebizond,Trabzon,restored 884/85,standing (gutted),"Bryer & Winfield 1985, pp. 218-219",G2-001,41.0024,39.7189,city,
+BW-XX-062,St. Auxentios (Armenian),monastery,Trebizond,Trabzon,,survived until 1915,"Bryer & Winfield 1985, p. 219",G2-001,41.0024,39.7189,city,
+BW-XX-063,St. Barbara,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 219",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 64?
+BW-XX-064,St. Barbara (Ayvarvar),monastery,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 219-220",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 63?
+BW-XX-065,St. Barbara,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 220",G2-001,41.0024,39.7189,city,
+BW-XX-066,St. Basil (Ayvasil),church,Trebizond,Trabzon,,destroyed (about 1972),"Bryer & Winfield 1985, p. 220",G2-001,41.0024,39.7189,city,
+BW-XX-067,St. Basiliskos,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 220",G2-001,41.0024,39.7189,city,
+BW-XX-068,St. Blaisios,church,Trebizond,Trabzon,"reported by Bordier, 1609",,"Bryer & Winfield 1985, pp. 220-221",G2-001,41.0024,39.7189,city,
+BW-XX-069,St. Christopher,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 221",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 30?
+BW-XX-070,St. Constantine,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 221",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 30, 71?"
+BW-XX-071,St. Constantine,church,Trebizond,Trabzon,,destroyed (after 1880),"Bryer & Winfield 1985, p. 221",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 30?
+BW-XX-072,St. Constantine,church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, p. 221",G2-001,41.0024,39.7189,city,
+BW-XX-073,St. Constantine,church,Trebizond,Trabzon,1830-79 (Metropolitan Constantios),standing (gutted),"Bryer & Winfield 1985, p. 221",G2-001,41.0024,39.7189,city,
+BW-XX-075,St. Dynamis,church,Trebizond,Trabzon,before 1223 (gate named in 1223),,"Bryer & Winfield 1985, p. 221",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 40, 42?"
+BW-XX-076,St. Eleutherios (Roman Catholic),church,Trebizond,Trabzon,converted to Latin use perhaps 1360; burial of 1365,survived until recently,"Bryer & Winfield 1985, pp. 221-222",G2-001,41.0024,39.7189,city,
+BW-XX-077,St. Eugenios (Yeni Cuma Camii),monastery,Trebizond,Trabzon,rebuilt after 1340 (Alexios III),standing (Yeni Cuma Camii),"Bryer & Winfield 1985, pp. 222-224",G2-001,41.0024,39.7189,city,
+BW-XX-078,St. Eugenios Cave Church,cave church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 224-225",G2-001,41.0024,39.7189,city,
+BW-XX-079,St. Eustratios (Karlık Tepe),church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 225",G2-001,41.0024,39.7189,city,
+BW-XX-080,St. George,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 225",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 32, 84, 87?"
+BW-XX-081,St. George,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 225",G2-001,41.0024,39.7189,city,
+BW-XX-082,St. George Kourtza,church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, p. 225",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 85?
+BW-XX-083,St. George of the Limnians,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 225",G2-001,41.0024,39.7189,city,
+BW-XX-084,St. George Tsartakle,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 225-226",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 32, 80, 87?"
+BW-XX-085,Fountain of St. George,holy fountain,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 226",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 82?
+BW-XX-086,St. Gregory,church,Trebizond,Trabzon,,no trace found (cf. 1609),"Bryer & Winfield 1985, p. 226",G2-001,41.0024,39.7189,city,
+BW-XX-087,St. Gregory,church,Trebizond,Trabzon,,no longer survives,"Bryer & Winfield 1985, p. 226",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 32, 80, 84?"
+BW-XX-088,St. Gregory of Nyssa,monastery,Trebizond,Trabzon,medieval monastery; cathedral rebuilt 1863,,"Bryer & Winfield 1985, pp. 226-228",G2-001,41.0024,39.7189,city,
+BW-XX-089,"St. John the Sanctifier, Mount Minthrion",monastery,Trebizond,Trabzon,obit of 1434,ruined (small chapel); 19th-c. church above turned into a mosque,"Bryer & Winfield 1985, p. 228",G2-001,41.0024,39.7189,city,
+BW-XX-090,"St. John (Surb Ohan, Armenian)",church,Trebizond,Trabzon,,no trace found (cf. 1915),"Bryer & Winfield 1985, p. 228",G2-001,41.0024,39.7189,city,
+BW-XX-091,"St. John the Prodromos and Baptist, tes Petras (Church H)",church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 228",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 92 Also listed as No. 92 (St. John Exoteichos).
+BW-XX-093,St. John Prodromos,church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, p. 228",G2-001,41.0024,39.7189,city,
+BW-XX-094,St. John the Theologian (Mum Hane Camii),church,Trebizond,Trabzon,mosque probably from 1461,,"Bryer & Winfield 1985, pp. 228-229",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 52 Also listed as No. 52 (Mum Hane Camii) in the concordance.
+BW-XX-095,"St. John of Vazelon, Metochion",monastery,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 229",G2-001,41.0024,39.7189,city,
+BW-XX-097,St. Kyriake,church,Trebizond,Trabzon,,no trace found (cf. 1819),"Bryer & Winfield 1985, p. 229",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 31, 35, 36?"
+BW-XX-098,St. Longinos,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 229",G2-001,41.0024,39.7189,city,
+BW-XX-099,St. Mammas (Armenian),church,Trebizond,Trabzon,,in ruins by 1819; not traced,"Bryer & Winfield 1985, p. 229",G2-001,41.0024,39.7189,city,
+BW-XX-100,St. Margaret (Roman Catholic),church,Trebizond,Trabzon,perhaps before 1316 (Genoese),,"Bryer & Winfield 1985, p. 229",G2-001,41.0024,39.7189,city,
+BW-XX-101,St. Maria (Roman Catholic),church,Trebizond,Trabzon,1874,standing (still open),"Bryer & Winfield 1985, p. 229",G2-001,41.0024,39.7189,city,
+BW-XX-102,St. Marina,church,Trebizond,Trabzon,Genoese (before 1461),Genoese church demolished after 1461; later church nearby,"Bryer & Winfield 1985, p. 229",G2-001,41.0024,39.7189,city,
+BW-XX-103,St. Nicholas,church,Trebizond,Trabzon,before 1426,,"Bryer & Winfield 1985, p. 229",G2-001,41.0024,39.7189,city,
+BW-XX-104,St. Nicholas,church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, pp. 229-230",G2-001,41.0024,39.7189,city,
+BW-XX-105,St. Niketas,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 230",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 30?
+BW-XX-106,St. Paraskeve,church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, p. 230",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 95?
+BW-XX-107,St. Peter,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 230",G2-001,41.0024,39.7189,city,
+BW-XX-108,St. Philip,church,Trebizond,Trabzon,13th c. (?) with extensions after 1461 and ca. 1665,standing (converted into a mosque ca. 1665),"Bryer & Winfield 1985, p. 230",G2-001,41.0024,39.7189,city,
+BW-XX-109,St. Prokopios,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 230",G2-001,41.0024,39.7189,city,
+BW-XX-110,"""Ste. Reverande""",church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, pp. 230-231",G2-001,41.0024,39.7189,city,
+BW-XX-111,St. Sabbas,monastery (cave church),Trebizond,Trabzon,east chapel 1411; west chapels late 13th c. (Talbot Rice),rock-cut chapels survive (deteriorated); in use until 1923,"Bryer & Winfield 1985, p. 231",G2-001,41.0024,39.7189,city,"No. 74 (St. Demetrios, known only from Bordier) is identified by Bryer & Winfield with this monastery."
+BW-XX-112,Hagia Sophia,monastery,Trebizond,Trabzon,founded by Manuel I (1238-63); tower 1427,standing (main church and tower; smaller church razed in the 19th c.),"Bryer & Winfield 1985, pp. 231-236",G2-001,41.0024,39.7189,city,
+BW-XX-113,St. Theodore,church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, pp. 236-237",G2-001,41.0024,39.7189,city,
+BW-XX-114,St. Theodore,church,Trebizond,Trabzon,,no trace found,"Bryer & Winfield 1985, p. 237",G2-001,41.0024,39.7189,city,
+BW-XX-115,St. Theodore Gabras,monastery,Trebizond,Trabzon,first mentioned 1364,no trace found,"Bryer & Winfield 1985, p. 237",G2-001,41.0024,39.7189,city,
+BW-XX-116,Holy Trinity,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 237",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 33?
+BW-XX-117,"""Santa Croce""",church,Trebizond,Trabzon,Trapezuntine type (pentagonal apse),destroyed (bulldozed),"Bryer & Winfield 1985, pp. 237-238",G2-001,41.0024,39.7189,city,
+BW-XX-118,Monastery of the Stylos,monastery,Trebizond,Trabzon,mentioned 1384 and 1395,,"Bryer & Winfield 1985, p. 238",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 49?
+BW-XX-119,Taxiarchai,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 238",G2-001,41.0024,39.7189,city,"Bryer & Winfield concordance (p. 248-50): = Nos. 31, 35, 36?"
+BW-XX-120,Theotokos Chrysokephalos (Fatih Camii),monastery,Trebizond,Trabzon,10th or 11th-c. basilica; 13th-15th-c. additions,standing (Fatih Camii),"Bryer & Winfield 1985, pp. 238-243",G2-001,41.0024,39.7189,city,
+BW-XX-121,Theotokos Eleousa,monastery,Trebizond,Trabzon,,"destroyed (harbor works, 1916)","Bryer & Winfield 1985, pp. 243-244",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 123?
+BW-XX-122,Theotokos Evangelistria,church,Trebizond,Trabzon,14th or 15th c. (Talbot Rice),destroyed (after 1929),"Bryer & Winfield 1985, p. 244",G2-001,41.0024,39.7189,city,
+BW-XX-123,Panagia Paramythia,church,Trebizond,Trabzon,,,"Bryer & Winfield 1985, p. 244",G2-001,41.0024,39.7189,city,Bryer & Winfield concordance (p. 248-50): = No. 121?
+BW-XX-124,Theotokos Theoskepastos,monastery,Trebizond,Trabzon,painted inscriptions of Alexios III and family (before 1843),standing (cave church; nuns' church lost),"Bryer & Winfield 1985, pp. 244-245",G2-001,41.0024,39.7189,city,
+BW-XX-125,Zeytinlik Camii,church (later mosque),Trebizond,Trabzon,,fragments incorporated in a mosque,"Bryer & Winfield 1985, pp. 245-248",G2-001,41.0024,39.7189,city,
+BW-XXI-001,"St. Eugenios, at Kapalin",church,Kapalin (unidentified),,built after 1223; in existence in the 1360s,,"Bryer & Winfield 1985, p. 265",,,,,
+BW-XXI-002,"Church A, at Hagios Basileios",church,Hagios Basileios (Ayvasil),"Anifa, now Akoluk",may be late medieval (p. 297),ruined (1916); unidentifiable now,"Bryer & Winfield 1985, p. 265",G2-N001,40.918,39.7032,settlement,
+BW-XXI-003,"Church B, at Hagios Basileios",church,Hagios Basileios (Ayvasil),"Anifa, now Akoluk",13th or 14th c. (Talbot Rice),,"Bryer & Winfield 1985, pp. 265-266",G2-N001,40.918,39.7032,settlement,
+BW-XXI-004,"Phantak, chapel",chapel,Phantak,"Fandak Köyü, Çakılca Köyü",13th-14th c. (p. 297); painting dated 1333/34 (p. 322),ruined (apse and semidome; roof intact until 1956-57),"Bryer & Winfield 1985, pp. 266-269",G2-034,40.88712,39.72677,settlement,
+BW-XXI-005,Church at Pirastiyos,church,Pirastiyos (Liboda),Pirastiyos,13th c. (p. 297),,"Bryer & Winfield 1985, p. 269",,,,,
+BW-XXI-006,"Church A, at Pipat (Oteki Su)",church,Pipat,"Bibat, Oteki Su",not earlier than the 12th c. (painting),standing (painted chapel),"Bryer & Winfield 1985, pp. 269-270",,,,,
+BW-XXI-007,"Church B, at Pipat",church,Pipat,Bibat Köyü,13th-14th c. (p. 297),,"Bryer & Winfield 1985, pp. 270-271",,,,,
+BW-XXI-008,Monastery of St. George Peristereota,monastery,Peristera,Kuştul,supposedly founded 752; refounded 1393,rebuilt after a fire of 1904,"Bryer & Winfield 1985, pp. 271-272",G2-096,40.7911,39.72,settlement (gazetteer point approx),
+BW-XXI-009,"Geyikli Kilisesi (Zouza?), Upper Church, Sarmaşıklı",church,Zouza (?),Sarmaşıklı (Geyikli),8th-9th c. (D. C. W.); 13th-14th c. also proposed (p. 297),,"Bryer & Winfield 1985, p. 272",,,,,
+BW-XXI-010,"Middle Chapel, Sarmaşıklı",chapel,Zouza (?),Sarmaşıklı,"12th c. (D. C. W., p. 297)",,"Bryer & Winfield 1985, p. 278",,,,,Its date and state are not given here.
+BW-XXI-011,"Lower Chapel, Sarmaşıklı",chapel,Zouza (?),Sarmaşıklı,late 14th or 15th c.,,"Bryer & Winfield 1985, pp. 278-80",,,,,Its date and state are not given here.
+BW-XXI-012,"St. John Theologos, at Dikaisimon",church,Dikaisimon,Maçka,"13th or 14th c. (painting, Protassoff)",destroyed (by 1962; in use 1917),"Bryer & Winfield 1985, p. 280",G2-052,40.8111,39.6132,settlement,
+BW-XXI-013,"St. Theodore, at Dikaisimon",church,Dikaisimon,Maçka,13th-14th c. (p. 297),,"Bryer & Winfield 1985, p. 280",G2-052,40.8111,39.6132,settlement,
+BW-XXI-014,Church at Chaba,church,Chaba,Hava,13th-14th c. (p. 297),reported ruined (not seen by Bryer & Winfield),"Bryer & Winfield 1985, p. 280",G2-088,40.8109,39.5725,settlement (gazetteer point approx),
+BW-XXI-015,Church (of the Prodromos?) at Spelia,church,Spelia,"İspela, Ocaklı",1378/79 (insecure),,"Bryer & Winfield 1985, pp. 280-281",G2-084,40.8109,39.5725,settlement,
+BW-XXI-016,Chapel at Angurga,chapel,Dianeiacha (?),Angurga,,,"Bryer & Winfield 1985, p. 281",,,,,
+BW-XXI-017,Doubera Castle,castle,Doubera,"Libera, Yazlık",before 1364; built or refortified 13th-14th c.,standing (about 10 m high),"Bryer & Winfield 1985, p. 281",G2-073,40.786,39.6291,settlement,
+BW-XXI-018,St. John Prodromos Grotto at Doubera,cave church,Doubera,"Libera, Yazlık",13th-14th c. (p. 297),ruined (two chapels and a cell),"Bryer & Winfield 1985, pp. 281-283",G2-073,40.786,39.6291,settlement,
+BW-XXI-019,"St. Theodore, or the Evangelistria, at Sanxenou",church,Sanxenou,Sansenou,1403/04 (insecure),,"Bryer & Winfield 1985, p. 283",,,,,
+BW-XXI-021,"Monastery of St. John Prodromos, at Kouspidion",monastery,Kouspidion (Kospityos),"Kınalıköprü, Coşandere",,,"Bryer & Winfield 1985, p. 284",G2-098,40.7642,39.6064,settlement (gazetteer point approx),
+BW-XXI-022,Monastery of the Theotokos of Soumela,monastery,"Soumela, Mount Mela",Meryemana Manastırı,tradition from the 10th c.; rebuilt 1360-65 by Alexios III; refounded 1365,,"Bryer & Winfield 1985, pp. 284-285",G2-094,40.69,39.6583,settlement,
+BW-XXI-023,Chortokopion Castle (Hortokop Kale),castle,Chortokopion,Hortokop,"built or refortified 13th-14th c., on an ancient site (p. 297)",ruined,"Bryer & Winfield 1985, p. 285",,,,,
+BW-XXI-024,"Gantopedin castle (Labra, Zanha Kale)",castle,"Gantopedin, Labra",Zanha,mentioned 1223 and 1366; 13th-14th c.,standing (ruins),"Bryer & Winfield 1985, pp. 285-286",,40.79663,39.57432,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXI-025,"The Taxiarchai, at Sachnoe",church,Sachnoe,"Sahanoy, now Köprüyanı",1390/91 (insecure),destroyed (between 1929 and 1957),"Bryer & Winfield 1985, pp. 286-289",G2-081,40.76754,39.55247,settlement,
+BW-XXI-026,"Monastery of St. John Prodromos of Vazelon, with the chapel of St. Elias",monastery,Vazelon,Ayana Manastırı,"chapel 1204-1461, probably late 13th or 14th c.; monastery re-endowed 1386",19th-c. buildings; medieval chapel of St. Elias stands on the terrace,"Bryer & Winfield 1985, pp. 289-294",G2-095,40.7667,39.5333,settlement (gazetteer point approx),
+BW-XXI-027,"St. Gregory of Neocaesarea, metochion of Vazelon",monastery,region of Sachnoe,,,reported only,"Bryer & Winfield 1985, p. 294",,,,,
+BW-XXI-028,Monastery of the Panagia Kremaste,monastery,"Kremaste, below Aitherisa",Kızlar Manastırı,probably medieval; refounded 1858,,"Bryer & Winfield 1985, p. 294",G2-097,40.7506,39.5589,settlement (gazetteer point approx),
+BW-XXI-029,"St. Eugenios, at Giannanton",church,Giannanton,"Yanandoz, now Yazılıtaş",16th c. (Talbot Rice),destroyed (before 1962),"Bryer & Winfield 1985, p. 294",G2-058,40.7292,39.5436,settlement,
+BW-XXI-030,"St. Marina, at Giannanton",church,Giannanton,"Yanandoz, now Yazılıtaş","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 294",G2-058,40.7292,39.5436,settlement,
+BW-XXI-031,"St. Basil, at Kounakalin",church,Kounakalin,"Konaka, now Küçükkonak","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 294",G2-069,40.7128,39.525,settlement (gazetteer point approx),
+BW-XXI-032,"St. Pankratios, at Kounakalin",church,Kounakalin,"Konaka, now Küçükkonak","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 294",G2-069,40.7128,39.525,settlement (gazetteer point approx),
+BW-XXI-033,"St. Constantine, at Kounakalin",church,Kounakalin,"Konaka, now Küçükkonak","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 294",G2-069,40.7128,39.525,settlement (gazetteer point approx),
+BW-XXI-034,"St. Helen, at Kounakalin",church,Kounakalin,"Konaka, now Küçükkonak","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 294",G2-069,40.7128,39.525,settlement (gazetteer point approx),
+BW-XXI-035,"St. Gregory, at Kounakalin",church,Kounakalin,"Konaka, now Küçükkonak","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 294",G2-069,40.7128,39.525,settlement (gazetteer point approx),
+BW-XXI-036,"St. (Theodore) Gabras, at Kounakalin",church,Kounakalin,"Konaka, now Küçükkonak","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, pp. 294-295",G2-069,40.7128,39.525,settlement (gazetteer point approx),
+BW-XXI-037,"Monastery of St. Gregory of Nyssa, at Kounakalin",monastery,Kounakalin,"Konaka, now Küçükkonak",probably flourished 13th-14th c.,ruined (by 1923),"Bryer & Winfield 1985, p. 295",G2-069,40.7128,39.525,settlement (gazetteer point approx),
+BW-XXI-038,Monastery of the Theotokos of Lachanas,monastery,Lachanas (Genakanton),"Yanakandos, now Gürgenağaç",probably flourished 13th-14th c.,,"Bryer & Winfield 1985, p. 295",G2-057,40.71375,39.52396,settlement,
+BW-XXI-039,"Theotokos (Panagia), at Genakanton",church,Genakanton,"Yanakandos, now Gürgenağaç","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 295",G2-057,40.71375,39.52396,settlement,
+BW-XXI-040,"Evangelistria, at Genakanton",church,Genakanton,"Yanakandos, now Gürgenağaç","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 295",G2-057,40.71375,39.52396,settlement,
+BW-XXI-041,"St. George of Rachata, at Genakanton",church,Genakanton,"Yanakandos, now Gürgenağaç","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 295",G2-057,40.71375,39.52396,settlement,
+BW-XXI-042,"St. Anna, at Krenasa-Adolin",church,Krenasa-Adolin,"Kıransa, now Anayurt","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 295",G2-071,40.7065,39.5066,settlement,
+BW-XXI-043,Monastery of the Theotokos (Panagia) of Krenasa,monastery,Krenasa,"Kıransa, now Anayurt",probably flourished 13th-14th c.,ruined (by 1923),"Bryer & Winfield 1985, p. 295",,,,,
+BW-XXI-044,"St. Sabbas, at Staman",church,Staman,"İstama, now Başar","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 295",G2-085,40.71071,39.49681,settlement,
+BW-XXI-045,"Theotokos (Panagia), at Krenasa",church,Krenasa,"Kıransa, now Anayurt","perhaps late medieval (Zerzelides' ""ancient"" church)",ruined,"Bryer & Winfield 1985, p. 295",G2-071,40.7065,39.5066,settlement,
+BW-XXI-046,"St. John Prodromos, at Staman",church,Staman,"İstama, now Başar","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 295",G2-085,40.71071,39.49681,settlement,
+BW-XXI-047,"St. Longinos, at Staman",church,Staman (Chalabena),"İstama, now Başar","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 295",G2-085,40.71071,39.49681,settlement,
+BW-XXI-048,"St. Nicholas, at Staman",church,Staman,"İstama, now Başar","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 295",G2-085,40.71071,39.49681,settlement,
+BW-XXI-049,"St. Cosmas and St. Damian, at Staman",church,Staman,"İstama, now Başar","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 295",,40.71071,39.49681,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXI-050,"Monastery of the Ascension (Analepsis), at Staman",monastery,Staman,"İstama, now Başar",probably flourished 13th-14th c. (6th-c. existence claimed),,"Bryer & Winfield 1985, pp. 295-296",,40.71071,39.49681,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXI-051,"St. Christopher, at Zabera",church,Zabera (Leftokarin),"Zavera, now Dikkaya","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 296",G2-061,40.7026,39.4962,settlement,
+BW-XXI-052,"Palaiokastro(n), castle of Palaiomatzouka",castle,Palaiomatzouka,"Hamsiköy Kale, Dik Kaya Kale",built or refortified 13th-14th c. (p. 297),,"Bryer & Winfield 1985, p. 296",,40.6878,39.48259,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXI-053,"Holy Savior (Ay Sotir), at Lefka",chapel,Lefka (Palaiomatzouka),,"perhaps late medieval (Zerzelides' ""ancient"" church)",standing,"Bryer & Winfield 1985, p. 296",,40.6878,39.48259,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXI-054,"Koimesis of the Theotokos, at Tshacharyianton",church,Tshacharyianton (Mytikaren),Hamsiköy,"perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 296",G2-086,40.6878,39.48259,settlement (gazetteer point approx),
+BW-XXI-055,"St. John Chrysostom, at Meliananton",church,Meliananton (Mangan),"Melanlı, now Çıralı","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 296",G2-076,40.68348,39.48247,settlement,
+BW-XXI-056,"The Taxiarchai, at Meliananton",church,Meliananton (Kangeli),"Melanlı, now Çıralı","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 296",G2-076,40.68348,39.48247,settlement,
+BW-XXI-057,"Koimesis of the Theotokos, at Palaichor (Tshacharyianton)",church,"Palaichor, summer village of Tshacharyianton",Hamsiköy,"perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, p. 296",,40.6878,39.48259,near settlement (gazetteer point approx),"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXI-058,"Holy Savior (Ay Sotir), at Batheas Elias (Meliananton)",church,"Batheas Elias, summer village of Meliananton","Melanlı, now Çıralı","perhaps late medieval (Zerzelides' ""ancient"" church)",,"Bryer & Winfield 1985, pp. 296-297",,40.68348,39.48247,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXI-059,Zigana Castle,castle,Zigana,Zigana (Kalkanlı),before 1404,ruined (bastion standing to 3.5 m),"Bryer & Winfield 1985, p. 297",,40.61216,39.36336,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXII-001,"Monastery of St. John Prodromos, Imera",monastery,Imera,Olucak,present church built 1859,,"Bryer & Winfield 1985, p. 304",G3-005,40.5334,39.5885,settlement (gazetteer point approx),
+BW-XXII-002,Yağlı Dere Kale (Mochora?),castle,Mochora (?),Nacarlı (Yağlıdere),,ruined (remains of two towers),"Bryer & Winfield 1985, pp. 304-305",,40.5442,39.5267,near settlement,"Coordinates are those of the nearest named settlement, not of the monument. Close to, or identical with, the village of Mochora (in the village list)."
+BW-XXII-003,Kromni Castle (Kurum Kale),castle,Kromni,Kurum,no evidence for dating,standing (small fort on a rock pinnacle),"Bryer & Winfield 1985, p. 305",,40.562,39.5923,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXII-004,Ardasa castle,castle,Ardasa,Torul,"13th or 14th c., before 1404",,"Bryer & Winfield 1985, p. 305",G3-118,40.55657,39.29246,settlement,
+BW-XXII-005,Church of the Archangels at Kore-Anna,church,Kore-Anna,"Koryana, now Kirazlık",,,"Bryer & Winfield 1985, p. 305",G3-N018,40.6423,39.2498,settlement,
+BW-XXII-006,Kırkilise (Korkilise),church,Kırkilise,Korkilise,,ruined (roof and most of apse gone),"Bryer & Winfield 1985, p. 305",,,,,
+BW-XXII-007,"Monastery of the Panagia Theotokos, Goumera",monastery,Goumera,Çit Meryemana,no evidence before 1775; foundation tradition ca. 1680,,"Bryer & Winfield 1985, p. 305",G3-145,40.483333,39.25,settlement (gazetteer point approx),
+BW-XXII-008,"Dipotamos, Double Church",church,Dipotamos,İkisu Köyü,,,"Bryer & Winfield 1985, pp. 305-308",G3-120,40.5351,39.4029,settlement,
+BW-XXII-009,Dipotamos Castle,castle,Dipotamos,İkisu Köyü,,ruined,"Bryer & Winfield 1985, p. 308",G3-120,40.5351,39.4029,settlement,
+BW-XXII-010,Godaina Castle,castle,Godaina,Kodil,,,"Bryer & Winfield 1985, p. 308",,,,,
+BW-XXII-011,Golacha Castle,castle,Golacha,Çoloşana (Bahçelik),newly built in 1404 (Clavijo),extensive remains (seen from the road),"Bryer & Winfield 1985, p. 308",G3-091,40.4727,39.3284,settlement,
+BW-XXII-012,Sorogaina Castle,castle,Sorogaina (Solochaina),"Soruyana, now Yalınkavak",,standing (ruins),"Bryer & Winfield 1985, p. 308",,40.4426,39.2605,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXII-013,Bayana Castle,castle,Bayana,Işık,,"standing (repaired or refortified twice; ""still secure"")","Bryer & Winfield 1985, p. 308",,40.3909,39.2925,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXII-014,"Monastery of St. George Chalinara, Charsera",monastery,Charsera,"Haşera, now Yeşildere",18th-19th c. (medieval origin claimed),not visited,"Bryer & Winfield 1985, pp. 308-309",G3-002,40.498524,39.510632,settlement,
+BW-XXII-015,"Tzanicha, castle and chapels",castle,Tzanicha,Canca,14th-c. heyday (1352),ruined (chapel roof caved in),"Bryer & Winfield 1985, pp. 309-310",,40.48016,39.4724,settlement,
+BW-XXII-016,"Monastery of St. George, Choutoura",monastery,Choutoura,"Hudra, now Alemdar",supposed chrysobull of 1365 (probably forged after 1764),,"Bryer & Winfield 1985, p. 310",G3-N046,40.438606,39.482971,settlement (gazetteer point approx),
+BW-XXII-017,Akçakale castle,castle,,"Akçakale, now Partikanbaşı",,,"Bryer & Winfield 1985, p. 310",,40.4311,39.5247,settlement,
+BW-XXII-018,Koukos castle (Koç Kale),castle,Koukos,Koç Kale,founded 1360 (Alexios III),ruined,"Bryer & Winfield 1985, pp. 310-311",,,,,
+BW-XXII-019,"Zindanlar Arazi, Murathanoğulları (Bourgousnoes, Longini Fossatum?)",fort,Bourgousnoes (?),Murathanoğulları,,standing (NE tower to about 12 m),"Bryer & Winfield 1985, pp. 311-312",,,,,
+BW-XXII-020,"Kouazi castle (Kovans, Keçi Kale)",castle,Kouazi (Mesochaldia?),"Kovans, Keçi Kale",,,"Bryer & Winfield 1985, p. 312",,40.3883,39.6896,settlement,
+BW-XXII-021,Church at Kovans Köyü,church,Kouazi,Kovans Köyü,,,"Bryer & Winfield 1985, pp. 312-313",,40.3883,39.6896,settlement,
+BW-XXII-022,"Hagia Sophia, at Leri(n)",church,Leri(n),"Ayasofya Camii, Kabakilise, now Kabaköy",,"standing (village mosque, a converted church)","Bryer & Winfield 1985, pp. 313-314",G3-N006,40.43493,39.69684,settlement,
+BW-XXIII-001,Chapel at Çinlikaya,chapel,between Zafanos and Cambur,Çinlikaya,,reported (not visited),"Bryer & Winfield 1985, p. 321",,,,,
+BW-XXIII-002,Churches of Hoşmaşalos,church,Hoşmaşalos,Çimenli,"painting comparable with Phantak, dated 1333/34",ruined (Church A apse painting damaged),"Bryer & Winfield 1985, pp. 321-322",,40.97826,39.80917,settlement,
+BW-XXIV-001,"Herakleia-Kalecik castle, on Arakh Burunu",castle,Herakleia,"Kalecik, Arakh Burunu",medieval (replaced Canayer),,"Bryer & Winfield 1985, p. 328",,40.957,40.03272,settlement,
+BW-XXIV-002,"Sousourmaina-Canayer camp, on Arakh Burunu",fort,Sousourmaina,Canayer,"Roman (station of Hyssos Port, Arrian)",,"Bryer & Winfield 1985, pp. 328-329",,40.9402,40.0287,settlement,
+BW-XXIV-003,"Aho-Zavzaga Kale, with chapel",castle,Zavzaga,Aho Kale,chapel probably before 1461,ruined,"Bryer & Winfield 1985, p. 329",,,,,
+BW-XXIV-004,Sürmene castle (Hamurgan),castle,Sourmaina (new),"Hamurgan, Sürmene",,ruined (tower on a crag),"Bryer & Winfield 1985, p. 329",,40.91046,40.11405,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXIV-005,Röşi (Rovşe) Kalesi,fort,,Röşi (Rovşe),,ruined; damaged by road building 1967-71,"Bryer & Winfield 1985, pp. 329-330",,,,,
+BW-XXIV-006,Church at Fetoka,church,Theotokos (?),"Fetoka, above Makitoromanlı",restored 933/34,remains of a later rebuilding,"Bryer & Winfield 1985, p. 330",,,,,"The village list's entry for Fetekoz (Hamidiye, Rize) attributes this church's 933/34 inscription to itself; Bryer & Winfield's route (Eskipazar-Hayrat-Makitoromanlı) does not lead there."
+BW-XXIV-007,Bridge piers at Eski Pazar (Maki Dere),bridge,,Eskipazar,,remains of piers,"Bryer & Winfield 1985, p. 330",,40.9697,40.3101,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXV-001,"Rhizaion, walled town and citadel",fortification,Rhizaion,Rize,no firm date (8th-9th c. least likely),standing (in part; tower to 12 m),"Bryer & Winfield 1985, pp. 332-334",G1-001,41.0208,40.5219,settlement,
+BW-XXV-002,Bozuk Kale,castle,,Bozuk Kale,,standing (in part),"Bryer & Winfield 1985, p. 334",,41.05429,40.63315,settlement,
+BW-XXV-003,Kordyla-Kalecik (Sivri Kale),castle,Kordyla,Kalecik (Sivri Kale),,,"Bryer & Winfield 1985, p. 334",,41.16227,40.83489,settlement,
+BW-XXVI-001,"Kız Kulesi, Athenai",castle,Athenai,Pazar,13th or 14th c.,,"Bryer & Winfield 1985, p. 339",G1-002,41.180195,40.886626,settlement,
+BW-XXVI-002,Cihar (Kise) Kale,castle,Kissa (?),Kise,,standing (ruins),"Bryer & Winfield 1985, pp. 339-340",,,,,
+BW-XXVI-003,"Church at Sapo Mahallesi, Eski Trabzon",church,,"Sapo Mahallesi, Eski Trabzon",Trapezuntine (pentagonal apse),ruined (walls to 5-6 m),"Bryer & Winfield 1985, p. 340",,41.1785,40.9448,settlement,
+BW-XXVI-004,Eski Trabzon site,site,,Eski Trabzon,,site; a ruined church reported,"Bryer & Winfield 1985, pp. 340-341",,41.1785,40.9448,settlement,
+BW-XXVI-005,Zil Kale,castle,,Zil Kale,,standing (ruins),"Bryer & Winfield 1985, p. 341",,,,,
+BW-XXVI-006,Varoş Kale,castle,,Varoş,,ruined (one tower razed),"Bryer & Winfield 1985, pp. 341-342",,40.8146,40.949,settlement,
+BW-XXVI-007,Church at Ardeşen,church,Anchialos palace (?),Ardeşen,linked to Sapo church (Trapezuntine),ruined,"Bryer & Winfield 1985, pp. 342-343",,41.1932,40.9808,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXVII-001,Apsaros (Gonia) fortress,fortification,Apsaros,Gonio (Georgia),,standing (walls up to 15 m),"Bryer & Winfield 1985, pp. 350-351",,,,,In Georgia; outside the Nişanyan file.
+BW-XXVII-002,Batumi (fort),fort,Bathys,Batumi (Georgia),,,"Bryer & Winfield 1985, p. 351",,,,,In Georgia; outside the Nişanyan file.
+BW-XXVII-003,Borçka castle and chapel,castle,,Borçka,,ruined (chapel walls to 1.5 m),"Bryer & Winfield 1985, p. 351",,41.3633,41.6774,settlement,
+BW-XXVIII-001,İspir castle and church,castle,Sper,İspir,,,"Bryer & Winfield 1985, p. 355",,40.4844,40.999,settlement,
+BW-XXVIII-002,Castle near Norgah,castle,,Norgah,"13th, 14th, or 18th c. (uncertain)",,"Bryer & Winfield 1985, p. 355",,,,,
+BW-XXVIII-003,Bayburt castle church,church,Paipertes,Bayburt,,,"Bryer & Winfield 1985, p. 355",,40.2567,40.2237,settlement,
+BW-XXVIII-004,"Church foundations near Vaginda (Kilise Arazi), Bayburt plains",church,,"Vaginda, near Konorsu",,foundations only,"Bryer & Winfield 1985, p. 355",,40.3559,40.2125,near settlement,"Coordinates are those of the nearest named settlement, not of the monument."
+BW-XXVIII-005,Varzahan Armenian church,church,,Varzahan,11th or 12th c.,destroyed (no trace since 1957),"Bryer & Winfield 1985, p. 355",,40.3197,40.127,settlement,

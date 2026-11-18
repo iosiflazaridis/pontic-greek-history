@@ -1,0 +1,335 @@
+row,name,kaza_printed,sanjak_printed,inhabitants,language_printed,language_resolved,churches,priests_educated,priests_uneducated,footnote,page,uncertain,seq,pdf_page,kaza_literal,sanjak_literal,inhabitants_as_printed
+1,Amisos,Samsun,Canik,8618,Greek,Greek,1,3,3,,35,n,1,28,Samsun,Canik,8.618
+2,Upper Amisos,Samsun,Canik,1870,»,Greek,2,0,2,,35,n,2,28,»,»,1.870
+3,Atatepe,Samsun,Canik,470,»,Greek,1,0,1,,35,n,3,28,»,»,470
+4,Ulugöl,Samsun,Canik,165,»,Greek,1,0,1,,35,n,4,28,»,»,165
+5,Papaz Mahalesi,Samsun,Canik,570,»,Greek,2,0,1,,35,n,5,28,»,»,570
+6,Pelitoğlu,Samsun,Canik,320,»,Greek,2,0,1,,35,n,6,28,»,»,320
+7,Misali Tuz,Samsun,Canik,214,»,Greek,1,0,1,,35,n,7,28,»,»,214
+8,Haydar,Samsun,Canik,167,»,Greek,2,0,1,,35,n,8,28,»,»,167
+9,Göl Bellen,Samsun,Canik,420,»,Greek,2,0,1,,35,n,9,28,»,»,420
+10,Yegile Giriş,Samsun,Canik,285,»,Greek,1,0,1,,35,n,10,28,»,»,285
+11,Seyminanto,Samsun,Canik,305,»,Greek,1,0,1,,35,n,11,28,»,»,305
+12,Demirciköy,Samsun,Canik,125,»,Greek,1,0,1,,35,n,12,28,»,»,125
+13,Simitçi,Samsun,Canik,180,»,Greek,1,0,1,,35,n,13,28,»,»,180
+14,Karamahmur,Samsun,Canik,175,»,Greek,1,0,1,,35,n,14,28,»,»,175
+15,Kızıloğlak,Samsun,Canik,200,»,Greek,1,0,1,,35,n,15,28,»,»,200
+16,Maradon,Samsun,Canik,153,»,Greek,1,0,1,,35,n,16,28,»,»,153
+17,Kelkaya,Samsun,Canik,253,»,Greek,1,0,1,,35,n,17,28,»,»,253
+18,Zigadon,Samsun,Canik,178,»,Greek,1,0,1,,35,n,18,28,»,»,178
+19,Karagöl,Samsun,Canik,673,»,Greek,4,0,2,,35,n,19,28,»,»,673
+20,Panayot Uşağı,Samsun,Canik,327,»,Greek,1,0,1,,35,n,20,28,»,»,327
+21,Kurtalanı,Samsun,Canik,210,»,Greek,1,0,1,,35,n,21,28,»,»,210
+22,Çinarlı,Samsun,Canik,500,»,Greek,1,0,1,,35,n,22,28,»,»,500
+23,Serniç Dağı,Samsun,Canik,458,»,Greek,2,0,1,,35,n,23,28,»,»,458
+24,Dev Giriş,Samsun,Canik,516,Turcophone,Turcophone,1,0,1,,35,n,24,28,»,»,516
+25,Kürekçi,Samsun,Canik,127,Greek,Greek,1,0,1,,35,n,25,28,»,»,127
+26,Boylan,Samsun,Canik,477,Turcophone,Turcophone,3,0,1,,35,n,26,28,»,»,477
+27,Gürgen Pınarı,Samsun,Canik,283,»,Turcophone,2,0,1,,35,n,27,28,»,»,283
+28,Kara Songur,Samsun,Canik,319,»,Turcophone,3,0,1,,35,n,28,28,»,»,319
+29,Taflan Köy,Samsun,Canik,316,Turcophone,Turcophone,1,0,1,,36,n,29,29,Samsun,Canik,316
+30,Haci Ismail,Samsun,Canik,216,Greek,Greek,1,0,1,,36,n,30,29,»,»,216
+31,Yarmalı Yatak,Samsun,Canik,129,»,Greek,1,0,1,,36,n,31,29,»,»,129
+32,Elias Köy,Samsun,Canik,380,»,Greek,1,0,1,,36,n,32,29,»,»,380
+33,Serniç Pınarı,Samsun,Canik,125,Turcophone,Turcophone,1,0,1,,36,n,33,29,»,»,125
+34,Andreandon,Samsun,Canik,1180,Greek,Greek,2,0,2,,36,n,34,29,»,»,1.180
+35,Terme,Samsun,Canik,277,Turcophone,Turcophone,3,0,1,,36,n,35,29,»,»,277
+36,Soğut,Samsun,Canik,75,»,Turcophone,0,0,0,* (η'): Unable to maintain a priest of their own they invite those of the neighbouring villages.,36,n,36,29,»,»,75
+37,Kara Percin,Samsun,Canik,1308,Greek,Greek,1,0,2,,36,n,37,29,»,»,1.308
+38,Çam Alanı,Samsun,Canik,278,»,Greek,1,0,1,,36,n,38,29,»,»,278
+39,Çanakçı,Samsun,Canik,370,»,Greek,1,0,1,,36,n,39,29,»,»,370
+40,Derecik,Samsun,Canik,391,»,Greek,1,0,1,,36,n,40,29,»,»,391
+41,Çatalarmut,Samsun,Canik,169,»,Greek,1,0,1,,36,n,41,29,»,»,169
+42,Ata,Samsun,Canik,340,»,Greek,1,0,1,,36,n,42,29,»,»,340
+43,Çirakman,Samsun,Canik,922,»,Greek,1,0,1,,36,n,43,29,»,»,922
+44,Kabacık,Samsun,Canik,129,»,Greek,1,0,0,** (η'): Invite the priest of Derecık.,36,n,44,29,»,»,129
+45,Düzeren,Samsun,Canik,278,Turcophone,Turcophone,1,0,1,,36,n,45,29,»,»,278
+46,Çadır,Samsun,Canik,190,Greek,Greek,1,0,1,,36,n,46,29,»,»,190
+47,Narlık,Samsun,Canik,250,Greek,Greek,1,0,1,,36,n,47,29,»,»,250
+48,Hayat Deresi,Samsun,Canik,407,»,Greek,3,0,1,,36,n,48,29,»,»,407
+49,Bellen,Samsun,Canik,570,»,Greek,2,0,1,,36,n,49,29,»,»,570
+50,Toyar,Samsun,Canik,280,»,Greek,3,0,1,,36,n,50,29,»,»,280
+51,Elma Çukur,Samsun,Canik,793,Turcophone,Turcophone,4,0,1,,36,n,51,29,»,»,793
+52,Topal Uşağı,Samsun,Canik,140,»,Turcophone,1,0,1,,36,n,52,29,»,»,140
+53,Ömer Gölü,Samsun,Canik,376,»,Turcophone,2,0,1,,36,n,53,29,»,»,376
+54,Kalkacık,Samsun,Canik,66,Greek,Greek,1,0,0,,36,n,54,29,»,»,66
+55,Gelice,Samsun,Canik,136,»,Greek,1,0,1,,36,n,55,29,»,»,136
+56,Karatoklu,Samsun,Canik,70,»,Greek,1,0,1,,36,n,56,29,»,»,70
+57,Soğanlı,Samsun,Canik,103,»,Greek,1,0,0,,36,"n: the final letter prints like a dotless j (a damaged ""ı"")",57,29,»,»,103
+58,Oca,Samsun,Canik,850,»,Greek,2,0,1,,36,n,58,29,»,»,850
+59,Erekli,Samsun,Canik,198,Turcophone,Turcophone,4,0,1,,36,n,59,29,»,»,198
+60,Akdoğan,Samsun,Canik,122,»,Turcophone,1,0,1,,36,n,60,29,»,»,122
+61,Incebal,Samsun,Canik,282,»,Turcophone,2,0,1,,36,n,61,29,»,»,282
+62,Kaya Güney,Samsun,Canik,553,»,Turcophone,3,0,1,,36,n,62,29,»,»,553
+63,Kuru Kökçü,Samsun,Canik,374,»,Turcophone,3,0,1,,36,n,63,29,»,»,374
+64,Tepecik,Samsun,Canik,435,Greek,Greek,1,0,1,,36,n,64,29,»,»,435
+65,Avtan,Samsun,Canik,230,»,Greek,1,0,1,,36,n,65,29,»,»,230
+66,Atılgan,Samsun,Canik,692,»,Greek,5,0,2,,36,n,66,29,»,»,692
+67,Çardak Yeri,Samsun,Canik,243,»,Greek,1,0,1,,36,n,67,29,»,»,243
+68,Töbeçik,Samsun,Canik,410,Turcophone,Turcophone,1,0,1,,36,n,68,29,»,»,410
+69,Sarı Boyur,Samsun,Canik,207,Greek,Greek,2,0,1,,36,n,69,29,»,»,207
+70,Futucak,Samsun,Canik,203,»,Greek,2,0,1,,36,n,70,29,»,»,203
+71,Sarı Kilise,Samsun,Canik,370,Greek,Greek,2,0,1,,37,n,71,30,Samsun,Canik,370
+72,Arucak,Samsun,Canik,306,»,Greek,1,0,1,,37,n,72,30,»,»,306
+73,Moskovanton,Samsun,Canik,91,»,Greek,1,0,1,,37,n,73,30,»,»,91
+74,Mazinoğlu,Samsun,Canik,123,»,Greek,1,0,1,,37,n,74,30,»,»,123
+75,Kütekçi,Samsun,Canik,113,»,Greek,1,0,1,,37,n,75,30,»,»,113
+76,Çiğıer,Samsun,Canik,738,Greek-Turkish,Greek-Turkish,6,0,3,* (η'): The village of Çiğyer maintained 9 Mahales with 6 churches and 2 schools. The priests were bilingual and performed the sermons sometimes in Greek and at other times in Turkish.,37,"n: name printed ""Çiğıer"" (sic); the footnote spells it ""Çiğyer""",76,30,»,»,738
+77,Tangorlu,Samsun,Canik,481,Greek,Greek,2,0,2,,37,n,77,30,»,»,481
+78,Çarşamba,Çarşamba,Canik,1273,Turcophone,Turcophone,1,0,2,** (name): The town of Çarşamba was mainly inhabited by Turks (3.814). There were also 1.348 Turcophone Armenians. At Çarşamba was the seat of the Kaymakam.,37,n,78,30,Çarşamba,»,1.273
+79,Hisarlı,Çarşamba,Canik,366,»,Turcophone,1,0,1,,37,n,79,30,»,»,366
+80,Koçalan,Samsun,Canik,155,Greek,Greek,1,0,1,,37,n,80,30,Samsun,»,155
+81,Romanandon,Samsun,Canik,179,»,Greek,1,0,1,,37,n,81,30,»,»,179
+82,Kireçdere,Samsun,Canik,182,Turcophone,Turcophone,1,0,1,,37,n,82,30,»,»,182
+83,Bohçaarmut,Samsun,Canik,236,»,Turcophone,1,0,1,,37,n,83,30,»,»,236
+84,Kazancoğlu,Çarşamba,Canik,282,»,Turcophone,1,0,1,,37,n,84,30,Çarşamba,»,282
+85,Çorluyeri,Çarşamba,Canik,406,»,Turcophone,1,0,1,,37,n,85,30,»,»,406
+86,Derviş Tekfur,Çarşamba,Canik,158,»,Turcophone,1,0,1,,37,n,86,30,»,»,158
+87,Dikenli Yatak,Çarşamba,Canik,250,»,Turcophone,1,0,1,,37,n,87,30,»,»,250
+88,Kamşi,Çarşamba,Canik,229,»,Turcophone,1,0,1,,37,n,88,30,»,»,229
+89,Kirazlı,Çarşamba,Canik,345,Greek,Greek,1,0,1,,37,n,89,30,»,»,345
+90,Sarı Yurt,Çarşamba,Canik,233,»,Greek,1,0,1,,37,n,90,30,»,»,233
+91,Yenice,Çarşamba,Canik,199,Turcophone,Turcophone,1,0,1,,37,n,91,30,»,»,199
+92,Ordu Kapı,Çarşamba,Canik,308,»,Turcophone,1,0,1,,37,n,92,30,»,»,308
+93,Kamışlı Köy,Samsun,Canik,118,Greek,Greek,1,0,0,,37,n,93,30,Samsun,»,118
+94,Yağ Basan,Çarşamba,Canik,336,»,Greek,2,0,1,,37,n,94,30,Çarşamba,»,336
+95,(?Sum) Pinar,Samsun,Canik,152,»,Greek,1,0,0,,37,n,95,30,Samsun,»,152
+96,Kışla,Samsun,Canik,325,»,Greek,2,0,1,,37,n,96,30,»,»,325
+97,Gedikli,Samsun,Canik,121,»,Greek,1,0,1,,37,n,97,30,»,»,121
+98,Firincioğlu,Samsun,Canik,240,»,Greek,1,0,1,,37,n,98,30,»,»,240
+99,Klimiandon,Samsun,Canik,301,»,Greek,2,0,1,,37,n,99,30,»,»,301
+100,Çal,Samsun,Canik,228,»,Greek,,,,,37,"n: στ', ζ', η' left blank in print",100,30,»,»,228
+101,Kazlı Köy,Samsun,Canik,181,»,Greek,1,0,1,,37,n,101,30,»,»,181
+102,Gövce Pinar,Samsun,Canik,276,»,Greek,1,0,1,,37,n,102,30,»,»,276
+103,Kaman,Samsun,Canik,123,»,Greek,1,0,1,,37,n,103,30,»,»,123
+104,Gel Girişi,Samsun,Canik,160,»,Greek,1,0,1,,37,n,104,30,»,»,160
+105,Sinamatas,Samsun,Canik,278,»,Greek,3,0,1,,37,n,105,30,»,»,278
+106,Paşa Yiatağı,Samsun,Canik,95,»,Greek,1,0,0,,37,n,106,30,»,»,95
+107,Gâvur Yurdu,Samsun,Canik,234,»,Greek,1,0,1,,37,n,107,30,»,»,234
+108,Trabzonlu,Samsun,Canik,177,»,Greek,1,0,1,,37,n,108,30,»,»,177
+109,Upper Canik,Samsun,Canik,283,»,Greek,1,0,1,,37,n,109,30,»,»,283
+110,Lower Canik,Samsun,Canik,1115,»,Greek,3,0,3,,37,n,110,30,»,»,1.115
+111,Gökçe,Samsun,Canik,241,Greek,Greek,1,0,1,,38,n,111,31,Samsun,Canik,241
+112,Gürgenli,Samsun,Canik,221,»,Greek,1,0,1,,38,n,112,31,»,»,221
+113,Alibey,Samsun,Canik,270,»,Greek,1,0,1,,38,n,113,31,»,»,270
+114,Düz Köy,Samsun,Canik,1130,Turcophone,Turcophone,2,0,1,,38,n,114,31,»,»,1.130
+115,Kel Uşaği,Samsun,Canik,171,»,Turcophone,1,0,1,,38,n,115,31,»,»,171
+116,Soğüt Pınarı,Samsun,Canik,335,»,Turcophone,1,0,1,,38,n,116,31,»,»,335
+117,Kurv Gökçe,Samsun,Canik,320,»,Turcophone,1,0,1,,38,n,117,31,»,»,320
+118,Kâzim Köy,Samsun,Canik,409,»,Turcophone,1,0,1,,38,n,118,31,»,»,409
+119,Kahvehane Seyvani,Samsun,Canik,230,»,Turcophone,1,0,1,,38,n: name printed on two lines,119,31,»,»,230
+120,Amasya,Amasya,Sivas,1300,»,Turcophone,1,0,1,"* (name): According to the yields of the Greek census in the town of Amasya there were 15.000 Turks, 9.860 Armenians and 206 Protestants.",38,n,120,31,Amasya,Sivas,1.300
+121,Ilerai,Amasya,Sivas,38,»,Turcophone,1,0,0,,38,n,121,31,»,»,38
+122,Tuzsuz,Amasya,Sivas,320,»,Turcophone,1,0,1,,38,n,122,31,»,»,320
+123,Zagana,Amasya,Sivas,294,»,Turcophone,1,0,1,,38,n,123,31,»,»,294
+124,Apacı,Amasya,Sivas,223,»,Turcophone,1,0,1,,38,n,124,31,»,»,223
+125,Fındıklı,Amasya,Sivas,451,»,Turcophone,1,0,1,,38,n,125,31,»,»,451
+126,Merzifun,Merzifun,Sivas,475,»,Turcophone,1,0,1,** (name): At the town of Merzifun was the seat of Kaymakam.,38,n,126,31,Merzifun,»,475
+127,Yedimköy,Amasya,Sivas,151,»,Turcophone,1,0,1,,38,n,127,31,Amasya,»,151
+128,Bayat,Corum,Sivas,209,»,Turcophone,1,0,1,,38,n,128,31,Corum,»,209
+129,Kelin (Sinisi?),Corum,Sivas,155,»,Turcophone,1,0,1,,38,"n: a speck after the η' figure, no footnote",129,31,»,»,155
+130,Mahmutlu,Corum,Sivas,197,»,Turcophone,1,0,1,,38,n,130,31,»,»,197
+131,Osmancık,Corum,Sivas,259,»,Turcophone,1,0,1,,38,n,131,31,»,»,259
+132,Sirakeze (?),Ladik,Canik,478,»,Turcophone,1,0,1,,38,n,132,31,Ladik,Canik,478
+133,Kemal,Amasya,Sivas,430,»,Turcophone,1,0,1,,38,n,133,31,Amasya,Sivas,430
+134,Turasan,Amasya,Sivas,209,»,Turcophone,1,0,1,,38,n,134,31,»,»,209
+135,Hamam Ayaği,Amasya,Sivas,287,»,Turcophone,1,0,1,,38,n,135,31,»,»,287
+136,Iskilip,Amasya,Sivas,391,»,Turcophone,1,0,1,,38,n,136,31,»,»,391
+137,Doğanly,Amasya,Sivas,153,»,Turcophone,1,0,1,,38,n,137,31,»,»,153
+138,Karaova,Amasya,Sivas,133,»,Turcophone,1,0,1,,38,n,138,31,»,»,133
+139,Terzili,Amasya,Sivas,250,»,Turcophone,1,0,1,,38,n,139,31,»,»,250
+140,Alayurt,Corum,Sivas,328,»,Turcophone,,,,,38,"n: στ', ζ', η' left blank in print",140,31,Corum,»,328
+141,Üçsaray,Ladik,Canik,182,»,Turcophone,2,0,1,,38,n,141,31,Ladik,Canik,182
+142,Karaaraç Pınarı,Amasya,Sivas,178,»,Turcophone,1,0,1,,38,n,142,31,Amasya,Sivas,178
+143,Kışla,Amasya,Sivas,175,»,Turcophone,1,0,1,,38,n,143,31,»,»,175
+144,Tataroğlu,Amasya,Sivas,163,»,Turcophone,1,0,1,,38,n,144,31,»,»,163
+145,Saharca,Amasya,Sivas,516,»,Turcophone,1,0,1,,38,n,145,31,»,»,516
+146,Taşlı Yarıca,Amasya,Sivas,321,»,Turcophone,3,0,1,,38,n,146,31,»,»,321
+147,Choritsa (?),Amasya,Sivas,238,»,Turcophone,2,0,1,,38,n,147,31,»,»,238
+148,Hacıalı,Amasya,Sivas,226,»,Turcophone,1,0,1,,38,n,148,31,»,»,226
+149,Kireçliköy,Amasya,Sivas,180,»,Turcophone,2,0,1,,38,n,149,31,»,»,180
+150,Hocaoğlan,Amasya,Sivas,320,»,Turcophone,1,0,1,,38,n,150,31,»,»,320
+151,Bellen Alaca,Amasya,Sivas,225,»,Turcophone,1,0,1,,38,n,151,31,»,»,225
+152,Çamurköy,Amasya,Sivas,161,»,Turcophone,1,0,1,,39,n,152,32,Amasya,Sivas,161
+153,Havza,Havza,Sivas,293,»,Turcophone,1,0,1,* (name): In this town there were 2.076 Turks and 235 Armenians.,39,n,153,32,Havza,»,293
+154,Ali Efendi Çifliği,Amasya,Sivas,92,»,Turcophone,1,0,1,,39,n,154,32,Amasya,»,92
+155,Erik Alan,Amasya,Sivas,257,»,Turcophone,1,0,1,,39,n,155,32,»,»,257
+156,Narlık,Amasya,Sivas,177,»,Turcophone,1,0,1,,39,n,156,32,»,»,177
+157,Çeltek,Amasya,Sivas,45,»,Turcophone,0,0,0,,39,n: first of two rows numbered 157 in print,157,32,»,»,45
+158,Ağturasan,Amasya,Sivas,335,»,Turcophone,1,0,1,,39,n: first of two rows numbered 158 in print,158,32,»,»,335
+157,Kara Mısır,Amasya,Sivas,193,»,Turcophone,1,0,1,,39,n: second row numbered 157 in print (numbering repeats 157-158),159,32,»,»,193
+158,Göz(ruf?),Amasya,Sivas,906,»,Turcophone,2,0,2,,39,n: second row numbered 158 in print,160,32,»,»,906
+159,Yağbasan,Amasya,Sivas,348,»,Turcophone,1,0,1,,39,n,161,32,»,»,348
+160,Koçoğlu,Amasya,Sivas,923,»,Turcophone,2,0,1,,39,n,162,32,»,»,923
+161,Eskigören,Amasya,Sivas,102,»,Turcophone,1,0,1,,39,n,163,32,»,»,102
+162,Kenek,Amasya,Sivas,136,»,Turcophone,1,0,1,,39,n,164,32,»,»,136
+163,Karaçörek,Amasya,Sivas,224,»,Turcophone,1,0,1,,39,n,165,32,»,»,224
+164,Çiğköy,Amasya,Sivas,257,»,Turcophone,1,0,1,,39,n,166,32,»,»,257
+165,Hacidede,Amasya,Sivas,175,»,Turcophone,1,0,1,,39,n,167,32,»,»,175
+166,Çayıroğlu,Amasya,Sivas,420,»,Turcophone,1,0,1,,39,n,168,32,»,»,420
+167,Kovanites,Amasya,Sivas,143,»,Turcophone,1,0,1,,39,n,169,32,»,»,143
+168,Aydoğdu,Amasya,Sivas,307,»,Turcophone,2,0,1,,39,n,170,32,»,»,307
+169,Seferli,Amasya,Sivas,166,»,Turcophone,1,0,1,,39,n,171,32,»,»,166
+170,Yahna,Amasya,Sivas,285,»,Turcophone,2,0,1,,39,n,172,32,»,»,285
+171,Taşoluk,Amasya,Sivas,54,»,Turcophone,0,0,0,,39,n,173,32,»,»,54
+172,Efkaliptus,Amasya,Sivas,278,»,Turcophone,1,0,1,,39,n,174,32,»,»,278
+173,Domuzalan,Amasya,Sivas,247,»,Turcophone,1,0,1,,39,n,175,32,»,»,247
+174,Orfano,Amasya,Sivas,347,»,Turcophone,2,0,1,,39,n,176,32,»,»,347
+175,Dere(cen?),Amasya,Sivas,236,»,Turcophone,2,0,1,,39,n,177,32,»,»,236
+176,Burcuk Alan,Amasya,Sivas,159,»,Turcophone,1,0,1,,39,n,178,32,»,»,159
+177,Emirçik,Amasya,Sivas,359,»,Turcophone,1,0,1,,39,n,179,32,»,»,359
+178,Göbeçay,Amasya,Sivas,115,»,Turcophone,1,0,1,,39,n,180,32,»,»,115
+179,Girenlik,Amasya,Sivas,154,»,Turcophone,1,0,1,,39,n,181,32,»,»,154
+180,Havacık,Amasya,Sivas,387,»,Turcophone,1,0,1,,39,n,182,32,»,»,387
+181,Ahyurt,Amasya,Sivas,72,»,Turcophone,1,0,0,,39,n,183,32,»,»,72
+182,Oktaş,Amasya,Sivas,250,»,Turcophone,,,,,39,"n: στ', ζ', η' left blank in print",184,32,»,»,250
+183,Doluca,Amasya,Sivas,120,»,Turcophone,1,0,1,,39,n,185,32,»,»,120
+184,Kızıl Çörek,Amasya,Sivas,125,»,Turcophone,1,0,1,,39,n,186,32,»,»,125
+185,Yağcı Mahmut,Amasya,Sivas,125,»,Turcophone,1,0,1,,39,n,187,32,»,»,125
+186,Dikenli,Vezirköprü,Sivas,110,»,Turcophone,1,0,1,,39,n,188,32,Vezirköprü,»,110
+187,Gözüm Aran,Amasya,Sivas,109,»,Turcophone,0,0,0,,39,n,189,32,Amasya,»,109
+188,Turna Göl,Amasya,Sivas,88,»,Turcophone,1,0,0,,39,n,190,32,»,»,88
+189,Cepni,Amasya,Sivas,287,»,Turcophone,2,0,1,,39,n,191,32,»,»,287
+190,Dereköy,Amasya,Sivas,707,»,Turcophone,1,0,1,,39,n,192,32,»,»,707
+191,(?)Yohça Armut,Amasya,Sivas,169,»,Turcophone,1,0,1,,39,n,193,32,»,»,169
+192,Karaklı,Amasya,Sivas,398,»,Turcophone,3,0,1,,39,n,194,32,»,»,398
+193,Vezirköy/Vezirköprü,Vezirköprü,Sivas,225,»,Turcophone,1,0,1,* (name): In Vezirköy the yields of the census give also 7.800 Turks and 880 Armenians.,40,"n: name printed on two lines (""Vezirköy/"" over ""Vezirköprü*"")",195,33,Vezirköprü,»,225
+194,Içerli,Vezirköprü,Sivas,184,»,Turcophone,1,0,1,,40,n,196,33,»,»,184
+195,Erencik,Vezirköprü,Sivas,666,»,Turcophone,1,0,1,,40,n,197,33,»,»,666
+196,Saraycık,Vezirköprü,Sivas,492,»,Turcophone,1,0,1,,40,n,198,33,»,»,492
+197,Kaya Alan,Vezirköprü,Sivas,70,»,Turcophone,1,0,1,,40,n,199,33,»,»,70
+198,Kaplan,Amasya,Sivas,304,»,Turcophone,1,0,1,,40,n,200,33,Amasya,»,304
+199,Süleyman Köy,Amasya,Sivas,415,»,Turcophone,1,0,1,,40,n,201,33,»,»,415
+200,Bacas,Amasya,Sivas,249,»,Turcophone,1,0,1,,40,n,202,33,»,»,249
+201,Bucuk Çifliği,Amasya,Sivas,405,»,Turcophone,1,0,1,,40,n,203,33,»,»,405
+202,Kocas,Amasya,Sivas,353,»,Turcophone,2,0,1,,40,n,204,33,»,»,353
+203,Haci Yurt,Amasya,Sivas,182,»,Turcophone,1,0,1,,40,n,205,33,»,»,182
+204,Uluca Alan,Amasya,Sivas,269,»,Turcophone,1,0,1,,40,n,206,33,»,»,269
+205,Alan,Amasya,Sivas,581,»,Turcophone,1,0,1,,40,n,207,33,»,»,581
+206,Harman (Tokatlı?),Vezirköprü,Sivas,678,»,Turcophone,3,0,1,,40,n,208,33,Vezirköprü,»,678
+207,Mermer Altı,Amasya,Sivas,325,»,Turcophone,1,0,1,,40,n,209,33,Amasya,»,325
+208,Ilica,Amasya,Sivas,154,»,Turcophone,1,0,1,,40,n,210,33,»,»,154
+209,(?)Bel Karakum,Amasya,Sivas,284,»,Turcophone,1,0,1,,40,n,211,33,»,»,284
+210,Kireçlik,Amasya,Sivas,444,»,Turcophone,1,0,0,,40,n,212,33,»,»,444
+211,Ağaçlık,Amasya,Sivas,120,»,Turcophone,2,0,1,,40,n,213,33,»,»,120
+212,Kavaklıca,Amasya,Sivas,110,»,Turcophone,0,0,0,,40,n,214,33,»,»,110
+213,Bey Alan,Amasya,Sivas,449,»,Turcophone,0,0,0,,40,n,215,33,»,»,449
+214,Katır Alan,Amasya,Sivas,505,»,Turcophone,1,0,1,,40,n,216,33,»,»,505
+215,Tepeköy,Amasya,Sivas,361,»,Turcophone,2,0,1,,40,n,217,33,»,»,361
+216,Hacı Giriş,Amasya,Sivas,436,»,Turcophone,2,0,1,,40,n,218,33,»,»,436
+217,Kara Pinar,Amasya,Sivas,225,»,Turcophone,2,0,1,,40,n,219,33,»,»,225
+218,Kızlar Alan,Amasya,Sivas,145,»,Turcophone,2,0,1,,40,n,220,33,»,»,145
+219,Büyük,Samsun,Canik,128,»,Turcophone,1,0,1,,40,n,221,33,Samsun,Canik,128
+220,Kaz Çayir,Amasya,Sivas,217,»,Turcophone,2,0,1,,40,n,222,33,Amasya,Sivas,217
+221,Biçiçik,Amasya,Sivas,174,»,Turcophone,2,0,1,,40,n,223,33,»,»,174
+222,Kavak,Samsun,Canik,258,»,Turcophone,3,0,0,,40,n,224,33,Samsun,Canik,258
+223,Gölüce Ağaç,Amasya,Sivas,340,»,Turcophone,1,0,1,,40,n,225,33,Amasya,Sivas,340
+224,Yılan Gören,Amasya,Sivas,187,»,Turcophone,1,0,1,,40,n,226,33,»,»,187
+225,Tekneçik,Samsun,Canik,397,»,Turcophone,1,0,1,,40,n,227,33,Samsun,Canik,397
+226,Karaçam,Samsun,Canik,646,»,Turcophone,1,0,1,,40,n,228,33,»,»,646
+227,Zogoli,Samsun,Canik,330,»,Turcophone,2,0,1,,40,n,229,33,»,»,330
+228,Karadağ,Samsun,Canik,390,»,Turcophone,3,0,1,,40,n,230,33,»,»,390
+229,Serniç,Samsun,Canik,660,»,Turcophone,3,0,1,,40,n,231,33,»,»,660
+230,Sinop,Sinop,Kastamonu,3668,Greek,Greek,4,2,2,** (name): In Sinop there were also some 3.000 Muslim Turkish inhabitants.,40,n,232,33,Sinop,Kastamonu,3.668
+231,Profitis Ilias,Sinop,Kastamonu,590,»,Greek,1,0,1,,40,n,233,33,»,»,590
+232,Karacaköy,Sinop,Kastamonu,269,»,Greek,1,1,,,40,"y: a ""1"" stands in the ζ' (educated) column and η' is blank; it may belong in η' (the printed ζ' total of 5 is one short of the rows)",234,33,»,»,269
+233,Yukarı Köy,Sinop,Kastamonu,493,»,Greek,1,0,1,,40,n,235,33,»,»,493
+234,Derviş Yeri,Sinop,Kastamonu,218,»,Greek,1,0,1,,40,n,236,33,»,»,218
+235,(Hertza?) Gerze,Sinop,Kastamonu,645,»,Greek,1,»,1,* (name): With a population of 5.000 Turks the Greeks were only a small minority in the mixed village of Hertza.,41,"y: ζ' is printed as a ditto mark ""»"" although the row above has ""–""; its meaning is unclear (read as 0 in the sums)",237,34,Sinop,Kastamonu,645
+236,Domuz Alan,Sinop,Kastamonu,306,»,Greek,1,0,1,* (name): (no note of its own: the page's only '*' note is the Hertza note of row 235),41,"n: asterisk printed after the name; the page's only ""*"" note is about Hertza (row 235), so this mark has no separate footnote",238,34,»,»,306
+237,Mortza,Sinop,Kastamonu,341,Turcophone,Turcophone,1,0,1,,41,n,239,34,»,»,341
+238,Kasapcı,Sinop,Kastamonu,93,»,Turcophone,1,0,0,,41,n,240,34,»,»,93
+239,Fiarna,Sinop,Kastamonu,121,»,Turcophone,1,0,1,,41,n,241,34,»,»,121
+240,(Taïsta?) Tosya,Sinop,Kastamonu,386,»,Turcophone,,,,,41,"n: στ', ζ', η' left blank in print",242,34,»,»,386
+241,Ayiancık,Sinop,Kastamonu,93,»,Turcophone,1,0,1,,41,n,243,34,»,»,93
+242,Tosos,Sinop,Kastamonu,266,»,Turcophone,1,0,1,,41,n,244,34,»,»,266
+243,Bafra,Bafra,Kastamonu,2822,»,Turcophone,1,0,3,"* (kaza (β')): (printed '*', meaning the page's '**' note) Bafra, the seat of the Kaymakam, was a mixed town with 3.871 Muslim Turks and 1.372 others, mainly Armenians.",41,"n: the asterisk is printed after ""Bafra"" in the kaza column; it refers to the page's ""**"" note on Bafra; the sanjak column is a ditto of ""Kastamonu"" (sic)",245,34,Bafra,»,2.822
+244,Leloukler,Bafra,Kastamonu,231,»,Turcophone,1,0,1,,41,n,246,34,»,»,231
+245,Pehni Uşaği,Samsun,Canik,425,»,Turcophone,2,0,1,,41,n,247,34,Samsun,Canik,425
+246,Devre,Samsun,Canik,475,»,Turcophone,1,0,1,,41,n,248,34,»,»,475
+247,Darboğaz,Samsun,Canik,317,»,Turcophone,1,0,1,,41,n,249,34,»,»,317
+248,Duğurlar,Samsun,Canik,416,»,Turcophone,1,0,1,,41,n,250,34,»,»,416
+249,Karaca (Direk?),Samsun,Canik,166,»,Turcophone,2,0,1,,41,n,251,34,»,»,166
+250,Ölcekler,Samsun,Canik,188,»,Turcophone,1,0,1,,41,n,252,34,»,»,188
+251,Otmasa,Samsun,Canik,191,»,Turcophone,1,0,1,,41,n,253,34,»,»,191
+252,Ağaca,Samsun,Canik,393,»,Turcophone,2,0,1,,41,n,254,34,»,»,393
+253,Kireçli,Samsun,Canik,537,»,Turcophone,3,0,1,,41,n,255,34,»,»,537
+254,Asmaçam,Samsun,Canik,528,»,Turcophone,2,0,1,,41,n,256,34,»,»,528
+255,Köşecik,Samsun,Canik,458,»,Turcophone,1,0,1,,41,n,257,34,»,»,458
+256,Yermen Uşağı,Samsun,Canik,227,»,Turcophone,1,0,1,,41,n,258,34,»,»,227
+257,Tepecik,Samsun,Canik,472,»,Turcophone,2,0,1,,41,n,259,34,»,»,472
+258,Çanakli,Samsun,Canik,672,»,Turcophone,3,0,1,,41,n,260,34,»,»,672
+259,Beytorlu,Samsun,Canik,169,»,Turcophone,3,0,1,,41,n,261,34,»,»,169
+260,Ormanos,Samsun,Canik,775,»,Turcophone,1,0,0,,41,n,262,34,»,»,775
+261,Yavlanos,Samsun,Canik,154,»,Turcophone,2,0,1,,41,n: next printed number is 266; 262-265 are skipped with no gap in the type,263,34,»,»,154
+266,Domuzoğlu,Samsun,Canik,590,»,Turcophone,2,0,0,,41,n,264,34,»,»,590
+267,Değirmen Küney,Samsun,Canik,242,»,Turcophone,2,0,1,,41,n,265,34,»,»,242
+268,Keller,Samsun,Canik,313,»,Turcophone,1,0,1,,41,n,266,34,»,»,313
+269,Karagözoğlu,Samsun,Canik,180,»,Turcophone,1,0,1,,41,n,267,34,»,»,180
+270,Cantar,Samsun,Canik,121,»,Turcophone,1,0,1,,41,n,268,34,»,»,121
+271,Yalıtepe,Samsun,Canik,88,»,Turcophone,1,0,0,,41,n,269,34,»,»,88
+272,Sürmeli,Samsun,Canik,320,»,Turcophone,1,0,0,,41,n,270,34,»,»,320
+273,Evrak Uşağı,Samsun,Canik,212,»,Turcophone,2,0,1,,41,n,271,34,»,»,212
+274,Dolan Ova,Samsun,Canik,318,»,Turcophone,1,0,1,,41,n,272,34,»,»,318
+275,Kaytalapa (?),Samsun,Canik,315,»,Turcophone,1,0,0,,41,n,273,34,»,»,315
+276,Yangeli Yatak,Samsun,Canik,142,»,Turcophone,1,0,0,,41,n,274,34,»,»,142
+277,Çıplaklar,Samsun,Canik,177,»,Turcophone,1,0,0,,41,n,275,34,»,»,177
+278,Osmanoğlu,Samsun,Canik,420,Turcophone,Turcophone,1,0,1,,42,n,276,35,Samsun,Canik,420
+279,Muzmelek,Samsun,Canik,280,»,Turcophone,1,0,1,,42,n,277,35,»,»,280
+280,Beykeller,Samsun,Canik,397,»,Turcophone,2,0,1,,42,n,278,35,»,»,397
+281,Papazpınar,Samsun,Canik,383,»,Turcophone,1,0,1,,42,n,279,35,»,»,383
+282,Balıklar,Samsun,Canik,297,»,Turcophone,1,0,1,,42,n,280,35,»,»,297
+283,Pire Gördü,Samsun,Canik,321,»,Turcophone,1,0,1,,42,n,281,35,»,»,321
+284,Chrisoköy,Samsun,Canik,582,»,Turcophone,2,0,1,,42,n,282,35,»,»,582
+285,Sirkeciköy,Samsun,Canik,328,»,Turcophone,2,0,1,,42,n,283,35,»,»,328
+286,Sihlik,Samsun,Canik,548,»,Turcophone,3,0,0,,42,n,284,35,»,»,548
+287,Kabaçakır,Samsun,Canik,297,»,Turcophone,2,0,1,,42,n,285,35,»,»,297
+288,Yayla,Samsun,Canik,579,»,Turcophone,3,0,1,,42,n,286,35,»,»,579
+289,Kaya Pinar,Samsun,Canik,257,»,Turcophone,1,0,1,,42,n,287,35,»,»,257
+290,Ulu Soyut,Samsun,Canik,224,»,Turcophone,1,0,1,,42,n,288,35,»,»,224
+291,Ulu Köy,Samsun,Canik,162,»,Turcophone,1,0,1,,42,n,289,35,»,»,162
+292,Mayili,Samsun,Canik,184,»,Turcophone,1,0,0,,42,n,290,35,»,»,184
+293,Domuzağa,Samsun,Canik,132,»,Turcophone,3,0,1,,42,n,291,35,»,»,132
+294,Gürlü Domuz,Samsun,Canik,242,»,Turcophone,1,0,1,,42,n,292,35,»,»,242
+295,Arab Ocağı,Samsun,Canik,146,»,Turcophone,1,0,1,,42,n,293,35,»,»,146
+296,Zeynel,Samsun,Canik,341,»,Turcophone,2,0,0,,42,n,294,35,»,»,341
+297,Selami,Samsun,Canik,327,»,Turcophone,1,0,1,,42,n,295,35,»,»,327
+298,Köşe Mahale,Samsun,Canik,245,»,Turcophone,1,0,1,,42,n,296,35,»,»,245
+299,Elmacık,Samsun,Canik,646,»,Turcophone,1,0,1,,42,n,297,35,»,»,646
+300,Erikcik,Samsun,Canik,167,»,Turcophone,2,0,1,,42,n,298,35,»,»,167
+301,(?) Boy,Samsun,Canik,846,»,Turcophone,1,0,0,,42,n,299,35,»,»,846
+302,Koca Su,Samsun,Canik,332,»,Turcophone,2,0,1,,42,n,300,35,»,»,332
+303,Aktepe,Samsun,Canik,1011,»,Turcophone,2,0,1,,42,n,301,35,»,»,1.011
+304,Tokatlı,Samsun,Canik,280,»,Turcophone,1,0,1,,42,n,302,35,»,»,280
+305,Kuyutepe,Samsun,Canik,82,»,Turcophone,1,0,1,,42,n,303,35,»,»,82
+306,(Egiz?) Tepe,Samsun,Canik,107,»,Turcophone,1,0,1,,42,n,304,35,»,»,107
+307,Koçer,Samsun,Canik,434,»,Turcophone,1,0,1,,42,n,305,35,»,»,434
+308,Koğal(uce?),Samsun,Canik,341,»,Turcophone,1,0,1,,42,n,306,35,»,»,341
+309,Kato Astir,Samsun,Canik,532,»,Turcophone,1,0,1,,42,n,307,35,»,»,532
+310,Ano Astir,Samsun,Canik,650,»,Turcophone,1,0,1,,42,n,308,35,»,»,650
+311,Kapı Kaya,Samsun,Canik,834,»,Turcophone,1,0,1,,42,n,309,35,»,»,834
+312,Kato Alan,Samsun,Canik,466,»,Turcophone,1,0,1,,42,n,310,35,»,»,466
+313,Hatır Alexandro,Samsun,Canik,130,»,Turcophone,1,0,1,,42,n,311,35,»,»,130
+314,Muamerli,Samsun,Canik,245,»,Turcophone,1,0,1,,42,n,312,35,»,»,245
+315,Konstandi Usağı,Samsun,Canik,304,»,Turcophone,1,0,1,,42,n,313,35,»,»,304
+316,Arpa,Samsun,Canik,331,»,Turcophone,1,0,1,,42,n,314,35,»,»,331
+317,Tazıl,Samsun,Canik,207,»,Turcophone,1,0,0,,42,n,315,35,»,»,207
+318,Demirciköy,Samsun,Canik,304,»,Turcophone,1,0,1,,42,n,316,35,»,»,304
+319,Köşe Köy,Samsun,Canik,338,»,Turcophone,2,0,1,,42,n,317,35,»,»,338
+320,Çorlu Koca,Samsun,Canik,351,»,Turcophone,1,0,1,,42,n,318,35,»,»,351
+321,Kabakköy,Samsun,Canik,143,»,Turcophone,1,0,0,,42,n,319,35,»,»,143
+322,Mitera Iskelesi,Samsun,Canik,130,»,Turcophone,1,0,0,,42,n,320,35,»,»,130
+323,Musteci,Samsun,Canik,148,Turcophone,Turcophone,1,0,0,,43,n,321,36,Samsun,Canik,148
+324,Alaçam,Alaçam,Canik,1516,»,Turcophone,2,0,1,,43,n,322,36,Alaçam,»,1.516
+325,Kelik,Samsun,Canik,137,»,Turcophone,1,0,0,,43,n,323,36,Samsun,»,137
+326,Antreoi,Samsun,Canik,223,»,Turcophone,4,0,1,,43,n,324,36,»,»,223
+327,Civli,Samsun,Canik,216,»,Turcophone,1,0,1,,43,n,325,36,»,»,216
+328,Perkeli,Samsun,Canik,393,»,Turcophone,2,0,1,,43,n,326,36,»,»,393
+329,Lara Hüseyin,Samsun,Canik,850,»,Turcophone,1,0,1,,43,n,327,36,»,»,850
+330,Koz Köyü,Samsun,Canik,320,»,Turcophone,1,0,1,,43,n,328,36,»,»,320
+331,Taş Çelik,Samsun,Canik,76,»,Turcophone,0,0,0,,43,n,329,36,»,»,76
+332,Çelik,Samsun,Canik,254,»,Turcophone,1,0,1,,43,n,330,36,»,»,254
+333,Cadırlık,Samsun,Canik,331,»,Turcophone,2,0,1,,43,n,331,36,»,»,331
+334,Kazlı Viran,Samsun,Canik,446,»,Turcophone,3,0,1,,43,n,332,36,»,»,446
+335,Meydanlık,Samsun,Canik,193,»,Turcophone,1,0,1,,43,n: the ε' ditto mark is damaged in print and shows as a comma,333,36,»,»,193
+336,Ireklik,Samsun,Canik,170,»,Turcophone,1,0,1,,43,n,334,36,»,»,170
